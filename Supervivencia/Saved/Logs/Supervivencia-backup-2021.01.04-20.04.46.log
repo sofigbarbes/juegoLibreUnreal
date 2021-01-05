@@ -1,0 +1,1122 @@
+﻿Log file open, 01/04/21 17:16:27
+LogInit:Display: Running engine for game: Supervivencia
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1082756532) SRandInit(-1082756532).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.134237
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/PROGRAMAS/UNREAL/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2021.01.04-16.16.28:393][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.04-16.16.28:393][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.04-16.16.28:425][  0]LogInit: Computer: DESKTOP-IQLRGCS
+[2021.01.04-16.16.28:425][  0]LogInit: User: Sofía
+[2021.01.04-16.16.28:425][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.01.04-16.16.28:425][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.04-16.16.28:425][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.01.04-16.16.28:425][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.04-16.16.28:425][  0]LogMemory: Process Physical Memory: 275.07 MB used, 275.07 MB peak
+[2021.01.04-16.16.28:425][  0]LogMemory: Process Virtual Memory: 267.36 MB used, 267.36 MB peak
+[2021.01.04-16.16.28:425][  0]LogMemory: Physical Memory: 5365.45 MB used,  10968.17 MB free, 16333.62 MB total
+[2021.01.04-16.16.28:425][  0]LogMemory: Virtual Memory: 4767.56 MB used,  10968.17 MB free, 134217728.00 MB total
+[2021.01.04-16.16.28:478][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.01.04-16.16.28:478][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2021.01.04-16.16.29:253][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.04-16.16.29:349][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 SUPER' (Feature Level 11_0)
+[2021.01.04-16.16.29:349][  0]LogD3D11RHI:       3955/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.01.04-16.16.29:350][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.04-16.16.29:350][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.04-16.16.29:350][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.04-16.16.29:354][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.04-16.16.29:354][  0]LogD3D11RHI:     GPU DeviceId: 0x2187 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.04-16.16.29:354][  0]LogWindows: EnumDisplayDevices:
+[2021.01.04-16.16.29:354][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1650 SUPER' (P:1 D:1)
+[2021.01.04-16.16.29:354][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1650 SUPER' (P:0 D:0)
+[2021.01.04-16.16.29:354][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1650 SUPER' (P:0 D:0)
+[2021.01.04-16.16.29:355][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1650 SUPER' (P:0 D:0)
+[2021.01.04-16.16.29:355][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.01.04-16.16.29:355][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 SUPER
+[2021.01.04-16.16.29:355][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.01.04-16.16.29:355][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.01.04-16.16.29:355][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.01.04-16.16.29:422][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.04-16.16.29:435][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.04-16.16.29:436][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Intermediate/Shaders/WorkingDirectory/6732/).
+[2021.01.04-16.16.29:436][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sofía/AppData/Local/Temp/UnrealShaderWorkingDir/D556C3E24ADB17F30C75C88FAD9FFA78/'.
+[2021.01.04-16.16.29:436][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2021.01.04-16.16.30:196][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2021.01.04-16.16.30:234][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2021.01.04-16.16.30:273][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2021.01.04-16.16.30:311][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2021.01.04-16.16.30:366][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2021.01.04-16.16.30:405][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2021.01.04-16.16.30:444][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.01.04-16.16.30:483][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2021.01.04-16.16.30:517][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2021.01.04-16.16.30:555][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2021.01.04-16.16.30:593][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2021.01.04-16.16.30:631][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2021.01.04-16.16.30:669][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2021.01.04-16.16.30:707][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2021.01.04-16.16.30:745][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2021.01.04-16.16.30:821][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2021.01.04-16.16.30:821][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2021.01.04-16.16.30:851][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2021.01.04-16.16.30:927][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2021.01.04-16.16.30:950][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2021.01.04-16.16.30:988][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2021.01.04-16.16.31:026][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2021.01.04-16.16.31:072][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2021.01.04-16.16.31:121][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2021.01.04-16.16.31:121][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.01.04-16.16.31:756][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.01.04-16.16.31:808][  0]LogDerivedDataCache: Loaded boot cache 0.05s 90MB C:/Users/Sofía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.04-16.16.31:808][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sofía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2021.01.04-16.16.31:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.04-16.16.31:808][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.04-16.16.31:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.04-16.16.31:808][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.04-16.16.31:824][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.04-16.16.31:836][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sofía/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.04-16.16.31:843][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.04-16.16.31:843][  0]LogSlate: Using Freetype 2.6.0
+[2021.01.04-16.16.31:844][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.04-16.16.31:844][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.04-16.16.32:099][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.04-16.16.32:145][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2021.01.04-16.16.32:258][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.04-16.16.32:290][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.01.04-16.16.32:327][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.01.04-16.16.32:327][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2021.01.04-16.16.32:327][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.01.04-16.16.32:698][  0]LogNetVersion: Supervivencia , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1556410374)
+[2021.01.04-16.16.32:749][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2021.01.04-16.16.32:800][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.034428 seconds
+[2021.01.04-16.16.32:804][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2021.01.04-16.16.32:804][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2021.01.04-16.16.32:804][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.04-16.16.32:849][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.01.04-16.16.34:651][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.04-16.16.34:686][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.04-16.16.35:104][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.01.04-16.16.35:400][  0]SourceControl: Info Source control is disabled
+[2021.01.04-16.16.35:401][  0]SourceControl: Info Source control is disabled
+[2021.01.04-16.16.35:438][  0]SourceControl: Info Source control is disabled
+[2021.01.04-16.16.35:476][  0]SourceControl: Info Source control is disabled
+[2021.01.04-16.16.36:004][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.04-16.16.36:463][  0]LogEngine: Initializing Engine...
+[2021.01.04-16.16.36:464][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.04-16.16.36:584][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.01.04-16.16.36:584][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.01.04-16.16.36:676][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.04-16.16.36:686][  0]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-16.16.36:713][  0]LogInit: FAudioDevice initialized.
+[2021.01.04-16.16.36:749][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Sofía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.04-16.16.36:757][  0]LogInit: Texture streaming: Enabled
+[2021.01.04-16.16.36:828][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.04-16.16.36:988][  0]LogInit: Transaction tracking system initialized
+[2021.01.04-16.16.37:217][  0]BlueprintLog: New page: Editor Load
+[2021.01.04-16.16.37:903][  0]LocalizationService: Info Localization service is disabled
+[2021.01.04-16.16.38:412][  0]LogConsoleResponse:Display: 
+[2021.01.04-16.16.38:511][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.04-16.16.38:511][  0]LogCook:Display: Mobile HDR setting 1
+[2021.01.04-16.16.39:303][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/' took 0.02s
+[2021.01.04-16.16.39:303][  0]SourceControl: Info Source control is disabled
+[2021.01.04-16.16.39:304][  0]Cmd: MAP LOAD FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.04-16.16.39:323][  0]LightingResults: New page: Lighting Build
+[2021.01.04-16.16.39:354][  0]MapCheck: New page: Map Check
+[2021.01.04-16.16.39:354][  0]LightingResults: New page: Lighting Build
+[2021.01.04-16.16.39:761][  0]LogAIModule: Creating AISystem for world Menu
+[2021.01.04-16.16.39:761][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.04-16.16.39:777][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.04-16.16.39:814][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.435ms to complete.
+[2021.01.04-16.16.39:814][  0]LogFileHelpers: Loading map 'Menu' took 0.511
+[2021.01.04-16.16.40:163][  0]LogCollectionManager: Loaded 0 collections in 0.000854 seconds
+[2021.01.04-16.16.40:263][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Collections/' took 0.01s
+[2021.01.04-16.16.40:263][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Developers/Sofía/Collections/' took 0.01s
+[2021.01.04-16.16.40:263][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Collections/' took 0.01s
+[2021.01.04-16.16.40:263][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2021.01.04-16.16.40:273][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2329 classes and 491 folders.
+[2021.01.04-16.16.40:343][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.01.04-16.16.41:120][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.01.04-16.16.41:207][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2021.01.04-16.16.41:395][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.01.04-16.16.41:435][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.04-16.16.41:437][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.04-16.16.41:470][  0]LogSlate: Took 0.010291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.04-16.16.41:618][  0]LogRenderer: Reallocating scene render targets to support 1076x436 NumSamples 1 (Frame:1).
+[2021.01.04-16.16.41:804][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2021.01.04-16.16.41:858][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2021.01.04-16.16.41:858][  0]LogLoad: (Engine Initialization) Total time: 15.19 seconds
+[2021.01.04-16.16.41:858][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2021.01.04-16.16.41:858][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.01.04-16.16.41:868][  0]LogOcInput: OculusInput pre-init called
+[2021.01.04-16.16.41:868][  0]LogHMD: Starting GearVRController plugin
+[2021.01.04-16.16.42:009][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.04-16.16.42:134][  0]LogSlate: Took 0.009723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.04-16.16.42:223][  1]LogAssetRegistry: Asset discovery search completed in 9.4966 seconds
+[2021.01.04-16.16.42:224][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2021.01.04-16.16.42:224][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2021.01.04-16.16.47:216][583]LogFileCache: Retrieving MD5 hashes for directory 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/' took 5.33s
+[2021.01.04-16.19.46:500][ 90]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.04-16.19.47:345][ 90]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.04-16.19.49:721][ 90]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-16.19.49:835][ 90]Cmd: MAP LOAD FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.04-16.19.49:835][ 90]LightingResults: New page: Lighting Build
+[2021.01.04-16.19.49:836][ 90]LoadErrors: New page: Loading map: Level2.umap
+[2021.01.04-16.19.49:836][ 90]MapCheck: New page: Map Check
+[2021.01.04-16.19.49:836][ 90]LightingResults: New page: Lighting Build
+[2021.01.04-16.19.49:969][ 90]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.04-16.19.50:009][ 90]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.04-16.19.50:062][ 90]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.311ms to complete.
+[2021.01.04-16.19.50:062][ 90]LogFileHelpers: Loading map 'Level2' took 0.228
+[2021.01.04-16.19.56:430][816]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-16.19.56:547][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-16.19.56:567][816]PIE: New page: PIE session: Level2 (Jan 4, 2021, 6:19:56 PM)
+[2021.01.04-16.19.56:567][816]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-16.19.56:587][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019732s)
+[2021.01.04-16.19.56:588][816]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-16.19.56:588][816]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2021.01.04-16.19.56:588][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.020419s)
+[2021.01.04-16.19.56:599][816]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-16.19.56:610][816]LogInit: FAudioDevice initialized.
+[2021.01.04-16.19.56:650][816]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-16.19.56:724][816]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-17.19.56
+[2021.01.04-16.19.56:785][816]LogWorld: Bringing up level for play took: 0.115992
+[2021.01.04-16.19.56:869][816]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2021.01.04-16.19.56:918][816]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.237
+[2021.01.04-16.19.57:881][927]LogCharacterMovement: Jugador_C_0 is stuck and failed to move! Velocity: X=571.44 Y=-172.88 Z=0.00 Location: X=-8104.20 Y=7205.56 Z=275.57 Normal: X=-0.30 Y=-0.93 Z=-0.20 PenetrationDepth:25.036 Actor:Disparo_C_0 Component:Cube BoneName:None (0 other events since notify)
+[2021.01.04-16.19.58:089][952]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2021.01.04-16.19.58:099][953]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2021.01.04-16.19.58:116][955]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.04-16.19.58:145][957]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2021.01.04-16.19.59:429][111]LogCharacterMovement: Jugador_C_0 is stuck and failed to move! Velocity: X=-333.04 Y=-499.08 Z=0.00 Location: X=-8349.46 Y=6565.94 Z=275.33 Normal: X=-0.46 Y=-0.84 Z=-0.29 PenetrationDepth:57.730 Actor:Disparo_C_1 Component:Cube BoneName:None (4 other events since notify)
+[2021.01.04-16.20.07:885][ 99]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall needed to have new flag set bUsedWithSkeletalMesh !
+[2021.01.04-16.20.07:886][ 99]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2021.01.04-16.20.20:121][482]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2021.01.04-16.20.20:836][482]LogSlate: Took 0.006422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.04-16.20.21:130][483]LogSlate: Took 0.008020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.04-16.20.22:497][634]LogRenderer: Reallocating scene render targets to support 1096x712 NumSamples 1 (Frame:1).
+[2021.01.04-16.20.37:289][330]BlueprintLog: New page: Compile Arma
+[2021.01.04-16.20.37:759][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Arma" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Arma.uasset" SILENT=true
+[2021.01.04-16.20.37:822][364]LogSavePackage: Save=45.97ms
+[2021.01.04-16.20.37:822][364]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Arma9107CDDF484B9DFB775BF0A2B7DE9A5A.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Arma.uasset'
+[2021.01.04-16.20.37:825][364]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Arma.uasset
+[2021.01.04-16.20.38:935][487]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-16.20.38:955][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-16.20.38:955][487]PIE: New page: PIE session: Level2 (Jan 4, 2021, 6:20:38 PM)
+[2021.01.04-16.20.38:956][487]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-16.20.38:968][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012325s)
+[2021.01.04-16.20.38:968][487]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-16.20.38:969][487]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2021.01.04-16.20.38:969][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013018s)
+[2021.01.04-16.20.38:993][487]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-16.20.39:004][487]LogInit: FAudioDevice initialized.
+[2021.01.04-16.20.39:031][487]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-16.20.39:036][487]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-17.20.39
+[2021.01.04-16.20.39:036][487]LogWorld: Bringing up level for play took: 0.004202
+[2021.01.04-16.20.39:038][487]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.118
+[2021.01.04-16.20.41:480][778]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2021.01.04-16.20.42:564][908]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2021.01.04-16.20.42:605][913]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2021.01.04-16.20.42:639][917]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint3] colision true
+[2021.01.04-16.20.45:089][211]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.04-16.25.09:785][235]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.04-16.25.23:092][643]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2021.01.04-16.25.23:397][643]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.04-16.25.24:223][643]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2021.01.04-16.25.24:246][643]LogRenderer: Reallocating scene render targets to support 1144x888 NumSamples 1 (Frame:1).
+[2021.01.04-16.26.28:731][657]LogAnimation:Warning: AnimBP JugadoAnimBlueprint_C is incompatible with skeleton HeroFPP_Skeleton2, removing AnimBP from actor.
+[2021.01.04-16.26.28:732][657]LogAnimation:Warning: AnimBP JugadoAnimBlueprint_C is incompatible with skeleton HeroFPP_Skeleton2, removing AnimBP from actor.
+[2021.01.04-16.26.28:732][657]LogAnimation:Warning: AnimBP JugadoAnimBlueprint_C is incompatible with skeleton HeroFPP_Skeleton2, removing AnimBP from actor.
+[2021.01.04-16.26.41:485][ 33]BlueprintLog: New page: Compile Jugador
+[2021.01.04-16.26.42:782][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jugador" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset" SILENT=true
+[2021.01.04-16.26.42:874][116]LogSavePackage: Save=85.14ms
+[2021.01.04-16.26.42:874][116]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador590331274678E3642047AD9C2BF68489.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset'
+[2021.01.04-16.26.42:877][116]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset
+[2021.01.04-16.26.45:187][383]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-16.26.45:208][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-16.26.45:209][383]PIE: New page: PIE session: Level2 (Jan 4, 2021, 6:26:45 PM)
+[2021.01.04-16.26.45:209][383]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-16.26.45:222][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012991s)
+[2021.01.04-16.26.45:222][383]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-16.26.45:223][383]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2021.01.04-16.26.45:223][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013832s)
+[2021.01.04-16.26.45:244][383]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-16.26.45:257][383]LogInit: FAudioDevice initialized.
+[2021.01.04-16.26.45:287][383]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-16.26.45:292][383]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-17.26.45
+[2021.01.04-16.26.45:292][383]LogWorld: Bringing up level for play took: 0.004803
+[2021.01.04-16.26.45:294][383]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.139
+[2021.01.04-16.27.16:810][877]Cmd: TRANSACTION UNDO
+[2021.01.04-16.27.16:810][877]LogEditorTransaction: Undo Edit Skeletal Mesh
+[2021.01.04-16.27.18:523][ 64]Cmd: TRANSACTION UNDO
+[2021.01.04-16.27.18:523][ 64]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2021.01.04-16.27.19:558][187]Cmd: TRANSACTION UNDO
+[2021.01.04-16.27.19:558][187]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.04-16.27.20:519][302]Cmd: TRANSACTION UNDO
+[2021.01.04-16.27.20:519][302]LogEditorTransaction: Undo Set actor scale
+[2021.01.04-16.27.25:722][856]BlueprintLog: New page: Compile Jugador
+[2021.01.04-16.27.25:873][856]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Engine/Transient.World_15:PersistentLevel.Jugador_C_3.CollisionCylinder is already used by CapsuleComponent /Engine/Transient.World_15:PersistentLevel.REINST_Jugador_C_11.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.01.04-16.27.25:873][856]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Engine/Transient.World_15:PersistentLevel.Jugador_C_3.Arrow is already used by ArrowComponent /Engine/Transient.World_15:PersistentLevel.REINST_Jugador_C_11.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.01.04-16.27.25:873][856]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Engine/Transient.World_15:PersistentLevel.Jugador_C_3.CharMoveComp is already used by CharacterMovementComponent /Engine/Transient.World_15:PersistentLevel.REINST_Jugador_C_11.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.01.04-16.27.25:873][856]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Engine/Transient.World_15:PersistentLevel.Jugador_C_3.CharacterMesh0 is already used by SkeletalMeshComponent /Engine/Transient.World_15:PersistentLevel.REINST_Jugador_C_11.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.01.04-16.27.25:873][856]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_15, Actor: /Engine/Transient.World_15:PersistentLevel.REINST_Jugador_C_11
+[2021.01.04-16.27.25:873][856]LogWorld: --- Actors Currently in /Engine/Transient.World_15:PersistentLevel ---
+[2021.01.04-16.27.25:873][856]LogWorld:   /Engine/Transient.World_15:PersistentLevel.WorldSettings
+[2021.01.04-16.27.25:873][856]LogWorld:   /Engine/Transient.World_15:PersistentLevel.Brush_15
+[2021.01.04-16.27.25:873][856]LogWorld:   /Engine/Transient.World_15:PersistentLevel.DefaultPhysicsVolume_15
+[2021.01.04-16.27.25:873][856]LogWorld:   /Engine/Transient.World_15:PersistentLevel.ParticleEventManager_15
+[2021.01.04-16.27.25:873][856]LogWorld:   NONE
+[2021.01.04-16.27.25:873][856]LogWorld:   NONE
+[2021.01.04-16.27.25:873][856]LogWorld:   /Engine/Transient.World_15:PersistentLevel.Jugador_C_3
+[2021.01.04-16.27.26:453][856]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.580 s
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: === Handled ensure: ===
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: 
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1502]
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: Could not remove actor /Engine/Transient.World_15:PersistentLevel.REINST_Jugador_C_11 from world (check level is /Engine/Transient.World_15:PersistentLevel)
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: Stack: 
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AC73E2B6
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AC4EB8C2
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AC501E86
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000893E7C26
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000088ADA983
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000088AE03F3
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000008719D79B
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000008719C228
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000008719751A
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000087198672
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000008716B9E3
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000086100EAA
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000086150991
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000861555D6
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ABE5EB7F
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ABF57EF2
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ABEC3DD2
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ABEC5079
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ABF37C05
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ABFE8F57
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000AC015D7B
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ABE39E9C
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ABE09835
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ABEAE5E2
+[2021.01.04-16.27.26:453][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ABE9720F
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000ABE88391
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AC73175B
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AC71B7D1
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AC7333DB
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AC717B22
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: USER32.dll!0x00000000F7FCE858
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: USER32.dll!0x00000000F7FCE299
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000AC733CE6
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: UE4Editor.exe!0x00000000EB9EDB44
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: UE4Editor.exe!0x00000000EB9DF0B0
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: UE4Editor.exe!0x00000000EB9DF12A
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: UE4Editor.exe!0x00000000EB9F0CF9
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: UE4Editor.exe!0x00000000EB9F25F7
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: KERNEL32.DLL!0x00000000F6467034
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: ntdll.dll!0x00000000F843D0D1
+[2021.01.04-16.27.26:454][856]LogOutputDevice:Error: 
+[2021.01.04-16.27.26:462][856]LogStats:                SubmitErrorReport -  0.000 s
+[2021.01.04-16.27.29:783][856]LogStats:                    SendNewReport -  3.322 s
+[2021.01.04-16.27.29:783][856]LogStats:             FDebug::EnsureFailed -  3.910 s
+[2021.01.04-16.27.33:583][232]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-16.27.33:595][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-16.27.33:595][232]PIE: New page: PIE session: Level2 (Jan 4, 2021, 6:27:33 PM)
+[2021.01.04-16.27.33:595][232]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-16.27.33:609][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013029s)
+[2021.01.04-16.27.33:609][232]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-16.27.33:609][232]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2021.01.04-16.27.33:609][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013771s)
+[2021.01.04-16.27.33:625][232]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-16.27.33:637][232]LogInit: FAudioDevice initialized.
+[2021.01.04-16.27.33:668][232]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-16.27.33:673][232]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-17.27.33
+[2021.01.04-16.27.33:674][232]LogWorld: Bringing up level for play took: 0.004512
+[2021.01.04-16.27.33:676][232]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.52
+[2021.01.04-16.27.34:883][375]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2021.01.04-16.27.34:900][377]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2021.01.04-16.27.35:194][412]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2021.01.04-16.27.36:477][566]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.04-16.27.37:252][659]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2021.01.04-16.27.37:327][668]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint3] colision true
+[2021.01.04-16.27.37:677][710]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint8] colision true
+[2021.01.04-16.27.38:211][774]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2021.01.04-16.30.23:221][610]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.009
+[2021.01.04-16.30.23:253][610]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Jugador] ([1] browsable assets)...
+[2021.01.04-16.30.23:295][610]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Jugador.Jugador]
+[2021.01.04-16.30.23:295][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Jugador]
+[2021.01.04-16.30.23:374][610]LogSavePackage: Save=75.80ms
+[2021.01.04-16.30.23:375][610]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador_Auto16E6091684C4593A8E092B0B709E5DF9A.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/Characters/Jugador_Auto1.uasset'
+[2021.01.04-16.30.23:376][610]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/Characters/Jugador_Auto1.uasset
+[2021.01.04-16.30.23:376][610]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Arma] ([1] browsable assets)...
+[2021.01.04-16.30.23:376][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Arma]
+[2021.01.04-16.30.23:376][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Arma" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/Arma_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.01.04-16.30.23:402][610]LogSavePackage: Save=19.56ms
+[2021.01.04-16.30.23:402][610]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Arma_Auto1718A6FA843A23D60BAA75BBBE303CB59.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/Arma_Auto1.uasset'
+[2021.01.04-16.30.23:403][610]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/Arma_Auto1.uasset
+[2021.01.04-16.30.23:404][610]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Basic_Wall] ([1] browsable assets)...
+[2021.01.04-16.30.23:478][610]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall]
+[2021.01.04-16.30.23:478][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Basic_Wall]
+[2021.01.04-16.30.23:507][610]LogSavePackage: Save=21.64ms
+[2021.01.04-16.30.23:507][610]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/M_Basic_Wall_Auto1075E47FD437C37C2D74E38BF88550899.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/StarterContent/Materials/M_Basic_Wall_Auto1.uasset'
+[2021.01.04-16.30.23:508][610]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/StarterContent/Materials/M_Basic_Wall_Auto1.uasset
+[2021.01.04-16.30.23:508][610]LogFileHelpers: Auto-saving content packages took 0.269
+[2021.01.04-16.35.29:834][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Sofía\Desktop\mira_rifle.png)
+[2021.01.04-16.35.30:028][641]LogTexture:Display: Building textures: mira_rifle (AutoDXT, 3508X2480)
+[2021.01.04-16.35.33:786][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Sofía\Desktop\mira.png)
+[2021.01.04-16.35.33:797][641]LogTexture:Display: Building textures: mira (AutoDXT, 100X100)
+[2021.01.04-16.35.37:180][817]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2021.01.04-16.36.52:199][691]BlueprintLog: New page: Compile SupervivenciaHUD
+[2021.01.04-16.36.52:326][691]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2021.01.04-16.36.52:879][743]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-16.36.52:902][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-16.36.52:902][743]PIE: New page: PIE session: Level2 (Jan 4, 2021, 6:36:52 PM)
+[2021.01.04-16.36.52:903][743]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-16.36.52:915][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012347s)
+[2021.01.04-16.36.52:916][743]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-16.36.52:916][743]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2021.01.04-16.36.52:916][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013195s)
+[2021.01.04-16.36.52:932][743]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-16.36.52:943][743]LogInit: FAudioDevice initialized.
+[2021.01.04-16.36.52:975][743]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-16.36.52:980][743]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-17.36.52
+[2021.01.04-16.36.52:981][743]LogWorld: Bringing up level for play took: 0.004498
+[2021.01.04-16.36.52:983][743]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.173
+[2021.01.04-16.36.57:482][200]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-16.36.57:499][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-16.36.57:499][200]PIE: New page: PIE session: Level2 (Jan 4, 2021, 6:36:57 PM)
+[2021.01.04-16.36.57:499][200]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-16.36.57:511][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011972s)
+[2021.01.04-16.36.57:512][200]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-16.36.57:512][200]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2021.01.04-16.36.57:512][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.012746s)
+[2021.01.04-16.36.57:528][200]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-16.36.57:539][200]LogInit: FAudioDevice initialized.
+[2021.01.04-16.36.57:568][200]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-16.36.57:573][200]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-17.36.57
+[2021.01.04-16.36.57:574][200]LogWorld: Bringing up level for play took: 0.004219
+[2021.01.04-16.36.57:575][200]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.42
+[2021.01.04-16.37.03:600][921]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2021.01.04-16.37.03:608][922]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2021.01.04-16.37.03:616][923]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2021.01.04-16.37.03:625][924]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint3] colision true
+[2021.01.04-16.37.07:108][342]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.04-16.37.40:820][295]BlueprintLog: New page: Compile Jugador
+[2021.01.04-16.37.41:788][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jugador" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset" SILENT=true
+[2021.01.04-16.37.41:870][334]LogSavePackage: Save=75.22ms
+[2021.01.04-16.37.41:870][334]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador55951BF943E20E65323D53AF24CC705E.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset'
+[2021.01.04-16.37.41:876][334]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset
+[2021.01.04-16.37.43:449][514]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-16.37.43:461][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-16.37.43:461][514]PIE: New page: PIE session: Level2 (Jan 4, 2021, 6:37:43 PM)
+[2021.01.04-16.37.43:462][514]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-16.37.43:474][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012165s)
+[2021.01.04-16.37.43:474][514]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-16.37.43:474][514]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2021.01.04-16.37.43:475][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.012923s)
+[2021.01.04-16.37.43:489][514]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-16.37.43:500][514]LogInit: FAudioDevice initialized.
+[2021.01.04-16.37.43:529][514]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-16.37.43:534][514]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-17.37.43
+[2021.01.04-16.37.43:535][514]LogWorld: Bringing up level for play took: 0.004255
+[2021.01.04-16.37.43:537][514]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.381
+[2021.01.04-16.37.45:583][758]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2021.01.04-16.37.45:584][758]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2021.01.04-16.37.45:592][759]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.04-16.37.45:592][759]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2021.01.04-16.37.45:600][760]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2021.01.04-16.37.49:225][195]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2021.01.04-16.37.57:342][169]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint3] colision true
+[2021.01.04-16.38.29:405][ 18]LogLinker: Can't find file '/Game/HUDS/MiraRifle'
+[2021.01.04-16.38.29:405][ 18]LogLinker: Can't find file '/Game/HUDS/MiraRifle'
+[2021.01.04-16.39.01:303][697]Cmd: TRANSACTION UNDO
+[2021.01.04-16.39.01:303][697]LogEditorTransaction: Undo Edit Image
+[2021.01.04-16.39.22:817][756]LogEditorTransaction: Undo Resize Widget
+[2021.01.04-16.39.23:204][789]LogEditorTransaction: Undo Resize Widget
+[2021.01.04-16.39.23:925][863]LogEditorTransaction: Undo Edit Image
+[2021.01.04-16.39.25:833][ 74]LogEditorTransaction: Undo Resize Widget
+[2021.01.04-16.39.49:126][324]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Sofía\Desktop\mira_rifle.png)
+[2021.01.04-16.39.49:279][324]LogTexture:Display: Building textures: mira_rifle (AutoDXT, 3508X2480)
+[2021.01.04-16.40.36:914][140]BlueprintLog: New page: Compile MiraRifle
+[2021.01.04-16.40.37:003][140]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2021.01.04-16.40.37:491][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/MiraRifle" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/MiraRifle.uasset" SILENT=true
+[2021.01.04-16.40.37:503][186]LogSavePackage: Save=10.06ms
+[2021.01.04-16.40.37:503][186]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/MiraRifle86EBE15D4B55EE30489C9E82CB1B15C1.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/MiraRifle.uasset'
+[2021.01.04-16.40.37:505][186]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/MiraRifle.uasset
+[2021.01.04-16.41.03:175][440]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.012
+[2021.01.04-16.41.03:176][440]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUDS/SupervivenciaHUD] ([1] browsable assets)...
+[2021.01.04-16.41.03:176][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUDS/SupervivenciaHUD]
+[2021.01.04-16.41.03:222][440]LogSavePackage: Save=38.63ms
+[2021.01.04-16.41.03:222][440]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/SupervivenciaHUD_Auto2D53D5D9B4374E9204A20039515480BCC.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/HUDS/SupervivenciaHUD_Auto2.uasset'
+[2021.01.04-16.41.03:223][440]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/HUDS/SupervivenciaHUD_Auto2.uasset
+[2021.01.04-16.41.03:224][440]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fondos/mira_rifle] ([1] browsable assets)...
+[2021.01.04-16.41.03:229][440]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fondos/mira_rifle.mira_rifle]
+[2021.01.04-16.41.03:229][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/fondos/mira_rifle]
+[2021.01.04-16.41.03:266][440]LogSavePackage: Save=36.24ms
+[2021.01.04-16.41.03:266][440]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/mira_rifle_Auto2417BDC2D4BF77C1A0B3EAF9503E22743.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/fondos/mira_rifle_Auto2.uasset'
+[2021.01.04-16.41.03:267][440]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/fondos/mira_rifle_Auto2.uasset
+[2021.01.04-16.41.03:268][440]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fondos/mira] ([1] browsable assets)...
+[2021.01.04-16.41.03:270][440]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fondos/mira.mira]
+[2021.01.04-16.41.03:270][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/fondos/mira]
+[2021.01.04-16.41.03:270][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/fondos/mira" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/fondos/mira_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2021.01.04-16.41.03:277][440]LogSavePackage: Save=5.11ms
+[2021.01.04-16.41.03:277][440]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/mira_Auto274BF99694BD29B453CB536AE9DBF35A2.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/fondos/mira_Auto2.uasset'
+[2021.01.04-16.41.03:277][440]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/fondos/mira_Auto2.uasset
+[2021.01.04-16.41.03:278][440]LogFileHelpers: Auto-saving content packages took 0.102
+[2021.01.04-16.41.28:419][497]BlueprintLog: New page: Compile MiraRifle
+[2021.01.04-16.41.28:422][497]LogLinker: Can't find file '/Game/fondos/mira_rifle'
+[2021.01.04-16.41.28:422][497]LogLinker: Can't find file for asset '/Game/fondos/mira_rifle' while loading ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/MiraRifle.uasset.
+[2021.01.04-16.41.28:422][497]LogLinker: Can't find file '/Game/fondos/mira_rifle'
+[2021.01.04-16.41.28:422][497]LogLinker: Can't find file for asset '/Game/fondos/mira_rifle' while loading ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/MiraRifle.uasset.
+[2021.01.04-16.41.28:496][497]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2021.01.04-16.41.28:935][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/MiraRifle" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/MiraRifle.uasset" SILENT=true
+[2021.01.04-16.41.28:951][548]LogSavePackage: Save=8.59ms
+[2021.01.04-16.41.28:951][548]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/MiraRifle6065856D4D70A1E47A39B0A739F09D37.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/MiraRifle.uasset'
+[2021.01.04-16.41.28:954][548]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/MiraRifle.uasset
+[2021.01.04-16.43.00:650][639]BlueprintLog: New page: Compile Jugador
+[2021.01.04-16.51.00:597][645]LogEditorTransaction: Undo New Time Entered
+[2021.01.04-16.51.01:224][717]LogEditorTransaction: Undo New Value Entered
+[2021.01.04-16.51.01:958][802]LogEditorTransaction: Undo Add Key(s)
+[2021.01.04-16.51.02:296][840]LogEditorTransaction: Undo Add new track
+[2021.01.04-16.51.02:531][864]LogEditorTransaction: Undo Create Pin Link
+[2021.01.04-16.54.57:487][459]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.019
+[2021.01.04-16.54.57:489][459]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Jugador] ([1] browsable assets)...
+[2021.01.04-16.54.57:507][459]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Jugador.Jugador]
+[2021.01.04-16.54.57:507][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Jugador]
+[2021.01.04-16.54.57:598][459]LogSavePackage: Save=84.05ms
+[2021.01.04-16.54.57:598][459]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador_Auto328AA3C134B020856E491E39057007F11.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/Characters/Jugador_Auto3.uasset'
+[2021.01.04-16.54.57:599][459]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/Characters/Jugador_Auto3.uasset
+[2021.01.04-16.54.57:600][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUDS/SupervivenciaHUD] ([1] browsable assets)...
+[2021.01.04-16.54.57:600][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUDS/SupervivenciaHUD]
+[2021.01.04-16.54.57:645][459]LogSavePackage: Save=38.21ms
+[2021.01.04-16.54.57:645][459]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/SupervivenciaHUD_Auto341BFC39348C5AC1920617D95283FADE5.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/HUDS/SupervivenciaHUD_Auto3.uasset'
+[2021.01.04-16.54.57:646][459]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/HUDS/SupervivenciaHUD_Auto3.uasset
+[2021.01.04-16.54.57:646][459]LogFileHelpers: Auto-saving content packages took 0.158
+[2021.01.04-16.57.50:599][830]BlueprintLog: New page: Compile Jugador
+[2021.01.04-16.57.51:871][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jugador" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset" SILENT=true
+[2021.01.04-16.57.51:960][884]LogSavePackage: Save=86.74ms
+[2021.01.04-16.57.51:960][884]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador5B1443204A4FE10B8E5FB095F2408E19.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset'
+[2021.01.04-16.57.51:966][884]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset
+[2021.01.04-17.00.15:936][888]BlueprintLog: New page: Compile Jugador
+[2021.01.04-17.00.16:032][888]LogLinker: Can't find file '/Game/fondos/mira_rifle'
+[2021.01.04-17.00.16:032][888]LogLinker: Can't find file for asset '/Game/fondos/mira_rifle' while loading ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/MiraRifle.uasset.
+[2021.01.04-17.00.16:032][888]LogLinker: Can't find file '/Game/fondos/mira_rifle'
+[2021.01.04-17.00.16:032][888]LogLinker: Can't find file for asset '/Game/fondos/mira_rifle' while loading ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/MiraRifle.uasset.
+[2021.01.04-17.00.16:826][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jugador" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset" SILENT=true
+[2021.01.04-17.00.16:923][947]LogSavePackage: Save=88.96ms
+[2021.01.04-17.00.16:923][947]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador2522E3C24EB24283DECA488EC55F3CC2.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset'
+[2021.01.04-17.00.16:926][947]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset
+[2021.01.04-17.00.18:780][161]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-17.00.18:797][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.00.18:797][161]PIE: New page: PIE session: Level2 (Jan 4, 2021, 7:00:18 PM)
+[2021.01.04-17.00.18:797][161]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-17.00.18:810][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013020s)
+[2021.01.04-17.00.18:811][161]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-17.00.18:811][161]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2021.01.04-17.00.18:811][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013842s)
+[2021.01.04-17.00.18:827][161]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-17.00.18:838][161]LogInit: FAudioDevice initialized.
+[2021.01.04-17.00.18:868][161]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-17.00.18:873][161]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-18.00.18
+[2021.01.04-17.00.18:874][161]LogWorld: Bringing up level for play took: 0.004355
+[2021.01.04-17.00.18:876][161]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.279
+[2021.01.04-17.00.23:824][751]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2021.01.04-17.00.23:858][755]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint3] colision true
+[2021.01.04-17.00.23:858][755]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2021.01.04-17.00.24:099][784]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint8] colision true
+[2021.01.04-17.00.27:925][243]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.04-17.01.01:683][183]BlueprintLog: New page: Compile Jugador
+[2021.01.04-17.01.02:546][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jugador" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset" SILENT=true
+[2021.01.04-17.01.02:638][230]LogSavePackage: Save=89.76ms
+[2021.01.04-17.01.02:638][230]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador0D96E8E44348010F7F8D368023AA7580.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset'
+[2021.01.04-17.01.02:639][230]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset
+[2021.01.04-17.01.04:074][390]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-17.01.04:091][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.01.04:091][390]PIE: New page: PIE session: Level2 (Jan 4, 2021, 7:01:04 PM)
+[2021.01.04-17.01.04:092][390]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-17.01.04:104][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012081s)
+[2021.01.04-17.01.04:104][390]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-17.01.04:104][390]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2021.01.04-17.01.04:105][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013034s)
+[2021.01.04-17.01.04:121][390]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-17.01.04:132][390]LogInit: FAudioDevice initialized.
+[2021.01.04-17.01.04:163][390]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-17.01.04:168][390]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-18.01.04
+[2021.01.04-17.01.04:169][390]LogWorld: Bringing up level for play took: 0.004201
+[2021.01.04-17.01.04:171][390]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 1.015
+[2021.01.04-17.02.09:457][990]BlueprintLog: New page: Compile Jugador
+[2021.01.04-17.02.10:166][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jugador" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset" SILENT=true
+[2021.01.04-17.02.10:262][ 27]LogSavePackage: Save=92.57ms
+[2021.01.04-17.02.10:262][ 27]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador3FA69F57410BDC8F628D70A932EBA821.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset'
+[2021.01.04-17.02.10:265][ 27]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset
+[2021.01.04-17.02.11:441][159]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-17.02.11:454][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.02.11:454][159]PIE: New page: PIE session: Level2 (Jan 4, 2021, 7:02:11 PM)
+[2021.01.04-17.02.11:455][159]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-17.02.11:467][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012375s)
+[2021.01.04-17.02.11:467][159]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-17.02.11:468][159]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2021.01.04-17.02.11:468][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013188s)
+[2021.01.04-17.02.11:484][159]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-17.02.11:495][159]LogInit: FAudioDevice initialized.
+[2021.01.04-17.02.11:521][159]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-17.02.11:526][159]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-18.02.11
+[2021.01.04-17.02.11:527][159]LogWorld: Bringing up level for play took: 0.004300
+[2021.01.04-17.02.11:529][159]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.373
+[2021.01.04-17.02.45:728][261]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2021.01.04-17.02.45:753][264]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2021.01.04-17.05.59:805][548]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.04-17.05.59:871][556]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2021.01.04-17.06.00:029][575]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2021.01.04-17.06.00:096][583]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2021.01.04-17.06.44:413][832]BlueprintLog: New page: Compile Jugador
+[2021.01.04-17.06.45:402][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jugador" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset" SILENT=true
+[2021.01.04-17.06.45:499][905]LogSavePackage: Save=89.34ms
+[2021.01.04-17.06.45:499][905]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador8F1CB092436D2AF9B6E93086691409AA.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset'
+[2021.01.04-17.06.45:502][905]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset
+[2021.01.04-17.06.47:198][100]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-17.06.47:214][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.06.47:214][100]PIE: New page: PIE session: Level2 (Jan 4, 2021, 7:06:47 PM)
+[2021.01.04-17.06.47:215][100]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-17.06.47:227][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012264s)
+[2021.01.04-17.06.47:228][100]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-17.06.47:228][100]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2021.01.04-17.06.47:228][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013082s)
+[2021.01.04-17.06.47:243][100]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-17.06.47:254][100]LogInit: FAudioDevice initialized.
+[2021.01.04-17.06.47:283][100]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-17.06.47:288][100]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-18.06.47
+[2021.01.04-17.06.47:288][100]LogWorld: Bringing up level for play took: 0.004250
+[2021.01.04-17.06.47:290][100]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.135
+[2021.01.04-17.06.49:038][308]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2021.01.04-17.06.49:038][308]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2021.01.04-17.06.49:038][308]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2021.01.04-17.06.49:047][309]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.04-17.06.52:397][711]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2021.01.04-17.07.36:864][981]BlueprintLog: New page: Compile Jugador
+[2021.01.04-17.07.37:782][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jugador" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset" SILENT=true
+[2021.01.04-17.07.37:874][ 45]LogSavePackage: Save=89.65ms
+[2021.01.04-17.07.37:874][ 45]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/JugadorF378B9B74083C721E8C4E2971939DEB0.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset'
+[2021.01.04-17.07.37:877][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset
+[2021.01.04-17.07.39:524][234]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-17.07.39:536][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.07.39:537][234]PIE: New page: PIE session: Level2 (Jan 4, 2021, 7:07:39 PM)
+[2021.01.04-17.07.39:537][234]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-17.07.39:549][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012293s)
+[2021.01.04-17.07.39:550][234]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-17.07.39:550][234]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2021.01.04-17.07.39:550][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013040s)
+[2021.01.04-17.07.39:565][234]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-17.07.39:576][234]LogInit: FAudioDevice initialized.
+[2021.01.04-17.07.39:605][234]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-17.07.39:610][234]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-18.07.39
+[2021.01.04-17.07.39:611][234]LogWorld: Bringing up level for play took: 0.004326
+[2021.01.04-17.07.39:613][234]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.457
+[2021.01.04-17.10.20:295][427]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.011
+[2021.01.04-17.10.20:296][427]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUDS/SupervivenciaHUD] ([1] browsable assets)...
+[2021.01.04-17.10.20:296][427]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUDS/SupervivenciaHUD]
+[2021.01.04-17.10.20:342][427]LogSavePackage: Save=38.44ms
+[2021.01.04-17.10.20:342][427]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/SupervivenciaHUD_Auto4B4DDD3974414D9476C84FEA456136BA6.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/HUDS/SupervivenciaHUD_Auto4.uasset'
+[2021.01.04-17.10.20:343][427]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/HUDS/SupervivenciaHUD_Auto4.uasset
+[2021.01.04-17.10.20:343][427]LogFileHelpers: Auto-saving content packages took 0.047
+[2021.01.04-17.14.09:528][909]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-17.14.09:541][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.14.09:541][909]PIE: New page: PIE session: Level2 (Jan 4, 2021, 7:14:09 PM)
+[2021.01.04-17.14.09:542][909]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-17.14.09:557][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014868s)
+[2021.01.04-17.14.09:558][909]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-17.14.09:558][909]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2021.01.04-17.14.09:558][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.016168s)
+[2021.01.04-17.14.09:574][909]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-17.14.09:586][909]LogInit: FAudioDevice initialized.
+[2021.01.04-17.14.09:617][909]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-17.14.09:622][909]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-18.14.09
+[2021.01.04-17.14.09:623][909]LogWorld: Bringing up level for play took: 0.004355
+[2021.01.04-17.14.09:625][909]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.469
+[2021.01.04-17.14.10:831][ 52]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2021.01.04-17.14.10:831][ 52]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2021.01.04-17.14.10:847][ 54]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2021.01.04-17.14.10:856][ 55]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.04-17.14.10:914][ 62]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2021.01.04-17.19.31:301][292]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{3cbbca7a-665d-4811-85cc-fb7e4777090c} was removed. Shutting down audio device.
+[2021.01.04-17.19.49:300][346]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{3cbbca7a-665d-4811-85cc-fb7e4777090c} was removed. Shutting down audio device.
+[2021.01.04-17.20.31:662][472]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.014
+[2021.01.04-17.20.31:664][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PersonajeBase] ([1] browsable assets)...
+[2021.01.04-17.20.31:664][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/PersonajeBase]
+[2021.01.04-17.20.31:688][472]LogSavePackage: Save=16.72ms
+[2021.01.04-17.20.31:688][472]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/PersonajeBase_Auto53AA197C348064660BACBD195CCAF8E24.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/PersonajeBase_Auto5.uasset'
+[2021.01.04-17.20.31:689][472]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/PersonajeBase_Auto5.uasset
+[2021.01.04-17.20.31:690][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Jugador] ([1] browsable assets)...
+[2021.01.04-17.20.31:690][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Jugador]
+[2021.01.04-17.20.31:783][472]LogSavePackage: Save=85.17ms
+[2021.01.04-17.20.31:783][472]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador_Auto5DBCC22EA436BCF94C1A67EB854F5FAF3.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/Characters/Jugador_Auto5.uasset'
+[2021.01.04-17.20.31:784][472]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/Characters/Jugador_Auto5.uasset
+[2021.01.04-17.20.31:784][472]LogFileHelpers: Auto-saving content packages took 0.121
+[2021.01.04-17.31.09:100][958]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-17.31.09:117][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.31.09:117][958]PIE: New page: PIE session: Level2 (Jan 4, 2021, 7:31:09 PM)
+[2021.01.04-17.31.09:118][958]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-17.31.09:131][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013891s)
+[2021.01.04-17.31.09:132][958]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-17.31.09:132][958]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2021.01.04-17.31.09:132][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.014896s)
+[2021.01.04-17.31.09:150][958]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-17.31.09:165][958]LogInit: FAudioDevice initialized.
+[2021.01.04-17.31.09:199][958]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-17.31.09:204][958]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-18.31.09
+[2021.01.04-17.31.09:204][958]LogWorld: Bringing up level for play took: 0.004463
+[2021.01.04-17.31.09:207][958]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.052
+[2021.01.04-17.31.11:441][224]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2021.01.04-17.31.11:441][224]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2021.01.04-17.31.11:441][224]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2021.01.04-17.31.11:441][224]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.04-17.31.11:441][224]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2021.01.04-17.31.44:590][128]BlueprintLog: New page: Compile Jugador
+[2021.01.04-17.31.45:342][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jugador" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset" SILENT=true
+[2021.01.04-17.31.45:442][165]LogSavePackage: Save=92.18ms
+[2021.01.04-17.31.45:442][165]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador20985CF043A54EEF747F7F9A8F979B97.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset'
+[2021.01.04-17.31.45:449][165]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset
+[2021.01.04-17.31.45:828][207]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.04-17.31.46:611][293]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-17.31.46:624][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.31.46:624][293]PIE: New page: PIE session: Level2 (Jan 4, 2021, 7:31:46 PM)
+[2021.01.04-17.31.46:625][293]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-17.31.46:637][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012694s)
+[2021.01.04-17.31.46:638][293]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-17.31.46:638][293]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2021.01.04-17.31.46:638][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013559s)
+[2021.01.04-17.31.46:654][293]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-17.31.46:665][293]LogInit: FAudioDevice initialized.
+[2021.01.04-17.31.46:696][293]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-17.31.46:701][293]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-18.31.46
+[2021.01.04-17.31.46:701][293]LogWorld: Bringing up level for play took: 0.004555
+[2021.01.04-17.31.46:704][293]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.452
+[2021.01.04-17.32.12:983][291]BlueprintLog: New page: Compile Jugador
+[2021.01.04-17.32.14:097][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jugador" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset" SILENT=true
+[2021.01.04-17.32.14:192][371]LogSavePackage: Save=92.46ms
+[2021.01.04-17.32.14:192][371]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador21BC1BF6464DD5144D029097171EBEB7.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset'
+[2021.01.04-17.32.14:195][371]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset
+[2021.01.04-17.32.30:524][255]BlueprintLog: New page: Compile Jugador
+[2021.01.04-17.32.31:663][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Jugador" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset" SILENT=true
+[2021.01.04-17.32.31:762][339]LogSavePackage: Save=96.48ms
+[2021.01.04-17.32.31:762][339]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Jugador746425B743EF90D47271939C0FB7D834.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset'
+[2021.01.04-17.32.31:765][339]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Characters/Jugador.uasset
+[2021.01.04-17.32.33:983][592]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.04-17.32.33:996][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.04-17.32.33:996][592]PIE: New page: PIE session: Level2 (Jan 4, 2021, 7:32:33 PM)
+[2021.01.04-17.32.33:997][592]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.04-17.32.34:010][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012902s)
+[2021.01.04-17.32.34:010][592]LogAIModule: Creating AISystem for world Level2
+[2021.01.04-17.32.34:010][592]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2021.01.04-17.32.34:010][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013766s)
+[2021.01.04-17.32.34:025][592]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.04-17.32.34:037][592]LogInit: FAudioDevice initialized.
+[2021.01.04-17.32.34:072][592]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.04-17.32.34:077][592]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.04-18.32.34
+[2021.01.04-17.32.34:077][592]LogWorld: Bringing up level for play took: 0.004373
+[2021.01.04-17.32.34:079][592]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.924
+[2021.01.04-17.32.37:196][964]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2021.01.04-17.32.37:196][964]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2021.01.04-17.32.37:229][968]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.04-17.32.37:246][970]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2021.01.04-17.32.41:654][499]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint3] colision true
+[2021.01.04-17.32.42:695][624]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2021.01.04-17.32.57:355][383]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2021.01.04-17.33.34:966][737]LogHttp:Warning: 0000026FB88E6980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.04-17.33.34:966][737]LogHttp:Warning: 0000026FB88E6980: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26fa30effb8 [can pipeline])
+[2021.01.04-17.33.34:966][737]LogHttp:Warning: 0000026FB88E6980: libcurl info message cache 1 (Re-using existing connection! (#27) with host datarouter.ol.epicgames.com)
+[2021.01.04-17.33.34:966][737]LogHttp:Warning: 0000026FB88E6980: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.23.37.44) port 443 (#27))
+[2021.01.04-17.33.34:966][737]LogHttp:Warning: 0000026FB88E6980: libcurl info message cache 3 (upload completely sent off: 1452 out of 1452 bytes)
+[2021.01.04-17.33.34:966][737]LogHttp:Warning: 0000026FB88E6980: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2021.01.04-17.33.34:966][737]LogHttp:Warning: 0000026FB88E6980: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.01.04-17.33.34:966][737]LogHttp:Warning: 0000026FB88E6980: libcurl info message cache 6 (Closing connection 27)
+[2021.01.04-17.33.34:966][737]LogHttp:Warning: 0000026FB88E6980: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B03A40433-40C8-5A6A-D80A-C5A88D5A09DF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=e501a7c44c841f62f7de50abe6de14c6%7C277c8d9923434d3bb8920cc7c789e26e%7C7a263120-b56e-4687-b57b-11107039a0b9&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2021.01.04-17.33.34:966][737]LogHttp:Warning: 0000026FB88E6980: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.04-17.33.34:966][737]LogHttp:Warning: 0000026FB88E6980: libcurl info message cache 9 (Closing connection 28)
+[2021.01.04-17.34.42:298][939]LogHttp:Warning: 0000027027006800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.04-17.34.42:298][939]LogHttp:Warning: 0000027027006800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.04-17.34.42:298][939]LogHttp:Warning: 0000027027006800: libcurl info message cache 1 (Closing connection 29)
+[2021.01.04-17.36.53:297][332]LogHttp:Warning: 0000027027006380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.04-17.36.53:297][332]LogHttp:Warning: 0000027027006380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.04-17.36.53:297][332]LogHttp:Warning: 0000027027006380: libcurl info message cache 1 (Closing connection 30)
+[2021.01.04-18.09.55:927][272]LogHttp:Warning: 000002707DAEF280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.04-18.09.55:927][272]LogHttp:Warning: 000002707DAEF280: libcurl info message cache 0 (Connection 45 seems to be dead!)
+[2021.01.04-18.09.55:927][272]LogHttp:Warning: 000002707DAEF280: libcurl info message cache 1 (Closing connection 45)
+[2021.01.04-18.09.55:927][272]LogHttp:Warning: 000002707DAEF280: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.01.04-18.09.55:927][272]LogHttp:Warning: 000002707DAEF280: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.04-18.09.55:927][272]LogHttp:Warning: 000002707DAEF280: libcurl info message cache 4 (Closing connection 46)
+[2021.01.04-18.11.44:929][599]LogHttp:Warning: 0000027027006500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.04-18.11.44:929][599]LogHttp:Warning: 0000027027006500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.04-18.11.44:929][599]LogHttp:Warning: 0000027027006500: libcurl info message cache 1 (Closing connection 47)
+[2021.01.04-18.14.09:514][273]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.010
+[2021.01.04-18.14.09:516][273]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUDS/SupervivenciaHUD] ([1] browsable assets)...
+[2021.01.04-18.14.09:516][273]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUDS/SupervivenciaHUD]
+[2021.01.04-18.14.09:564][273]LogSavePackage: Save=40.42ms
+[2021.01.04-18.14.09:564][273]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/SupervivenciaHUD_Auto6AD86570D41C4CE1C4D0241AF884D55AA.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/HUDS/SupervivenciaHUD_Auto6.uasset'
+[2021.01.04-18.14.09:565][273]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/HUDS/SupervivenciaHUD_Auto6.uasset
+[2021.01.04-18.14.09:565][273]LogFileHelpers: Auto-saving content packages took 0.051
+[2021.01.04-18.20.55:688][218]LogHttp:Warning: 0000027015C26500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.04-18.20.55:688][218]LogHttp:Warning: 0000027015C26500: libcurl info message cache 0 (Connection 50 seems to be dead!)
+[2021.01.04-18.20.55:688][218]LogHttp:Warning: 0000027015C26500: libcurl info message cache 1 (Closing connection 50)
+[2021.01.04-18.20.55:688][218]LogHttp:Warning: 0000027015C26500: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.01.04-18.20.55:688][218]LogHttp:Warning: 0000027015C26500: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.04-18.20.55:688][218]LogHttp:Warning: 0000027015C26500: libcurl info message cache 4 (Closing connection 51)
+[2021.01.04-18.23.15:891][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Arma" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Arma.uasset" SILENT=true
+[2021.01.04-18.23.15:923][790]LogSavePackage: Save=23.84ms
+[2021.01.04-18.23.15:923][790]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/ArmaAC856BDC4CF8ED7E81DB9DB80B3753F6.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Arma.uasset'
+[2021.01.04-18.23.15:931][790]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Arma.uasset
+[2021.01.04-18.23.15:935][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/fondos/mira" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/fondos/mira.uasset" SILENT=true
+[2021.01.04-18.23.15:943][790]LogSavePackage: Save=6.35ms
+[2021.01.04-18.23.15:943][790]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/mira81A991ED44C01F8661D84F8786355A64.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/fondos/mira.uasset'
+[2021.01.04-18.23.15:950][790]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/fondos/mira.uasset
+[2021.01.04-18.23.15:972][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/fondos/mira_rifle" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/fondos/mira_rifle.uasset" SILENT=true
+[2021.01.04-18.23.16:217][790]LogSavePackage: Save=233.45ms
+[2021.01.04-18.23.16:217][790]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/mira_rifle2F3386104DD2AF116789FFA30B7AC641.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/fondos/mira_rifle.uasset'
+[2021.01.04-18.23.16:223][790]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/fondos/mira_rifle.uasset
+[2021.01.04-18.23.16:225][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/SupervivenciaHUD" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/SupervivenciaHUD.uasset" SILENT=true
+[2021.01.04-18.23.16:274][790]LogSavePackage: Save=41.04ms
+[2021.01.04-18.23.16:274][790]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/SupervivenciaHUDE845835A43D9EDD3438C099308836F2C.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/SupervivenciaHUD.uasset'
+[2021.01.04-18.23.16:301][790]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/HUDS/SupervivenciaHUD.uasset
+[2021.01.04-18.23.16:303][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PersonajeBase" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/PersonajeBase.uasset" SILENT=true
+[2021.01.04-18.23.16:329][790]LogSavePackage: Save=17.75ms
+[2021.01.04-18.23.16:330][790]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/PersonajeBaseF3D564614262D6C52205A097E0EA3C0F.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/PersonajeBase.uasset'
+[2021.01.04-18.23.16:335][790]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/PersonajeBase.uasset
+[2021.01.04-18.23.16:352][790]LogSavePackage: Save=7.24ms
+[2021.01.04-18.23.16:352][790]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/M_Basic_Wall7FA498884A050DCD0D4A599BE66BA6DC.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/StarterContent/Materials/M_Basic_Wall.uasset'
+[2021.01.04-18.23.16:358][790]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2021.01.04-18.23.16:664][791]Cmd: QUIT_EDITOR
+[2021.01.04-18.23.16:751][791]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2021.01.04-18.23.16:786][791]LogExit: Preparing to exit.
+[2021.01.04-18.23.17:656][791]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/' was aborted.
+[2021.01.04-18.23.17:823][791]LogExit: Editor shut down
+[2021.01.04-18.23.17:853][791]LogExit: Transaction tracking system shut down
+[2021.01.04-18.23.18:183][791]LogObj: Freed 0b from 0 cluster array pools.
+[2021.01.04-18.23.18:183][791]LogExit: Object subsystem successfully closed.
+[2021.01.04-18.23.18:246][791]LogD3D11RHI: Shutdown
+[2021.01.04-18.23.18:246][791]LogD3D11RHI: CleanupD3DDevice
+[2021.01.04-18.23.18:379][791]LogD3D11RHI: ~FD3D11DynamicRHI
+[2021.01.04-18.23.18:398][791]LogModuleManager: Shutting down and abandoning module SequencerWidgets (540)
+[2021.01.04-18.23.18:398][791]LogModuleManager: Shutting down and abandoning module TextureEditor (538)
+[2021.01.04-18.23.18:398][791]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (536)
+[2021.01.04-18.23.18:399][791]LogModuleManager: Shutting down and abandoning module SkeletonEditor (534)
+[2021.01.04-18.23.18:399][791]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (532)
+[2021.01.04-18.23.18:399][791]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2021.01.04-18.23.18:399][791]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2021.01.04-18.23.18:407][791]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2021.01.04-18.23.18:416][791]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2021.01.04-18.23.18:416][791]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2021.01.04-18.23.18:416][791]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2021.01.04-18.23.18:416][791]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2021.01.04-18.23.18:416][791]LogDirectoryWatcher: A directory notification for 'D:/PROGRAMAS/UNREAL/UE_4.16/FeaturePacks/' was aborted.
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2021.01.04-18.23.18:421][791]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Collections/' was aborted.
+[2021.01.04-18.23.18:421][791]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Developers/Sofía/Collections/' was aborted.
+[2021.01.04-18.23.18:421][791]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Collections/' was aborted.
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module Media (471)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2021.01.04-18.23.18:421][791]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2021.01.04-18.23.18:422][791]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2021.01.04-18.23.18:422][791]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2021.01.04-18.23.18:422][791]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2021.01.04-18.23.18:422][791]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2021.01.04-18.23.18:422][791]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2021.01.04-18.23.18:422][791]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2021.01.04-18.23.18:663][791]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2021.01.04-18.23.18:664][791]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2021.01.04-18.23.18:664][791]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2021.01.04-18.23.18:664][791]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2021.01.04-18.23.18:664][791]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2021.01.04-18.23.18:664][791]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2021.01.04-18.23.18:664][791]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2021.01.04-18.23.18:664][791]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2021.01.04-18.23.18:708][791]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2021.01.04-18.23.18:708][791]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2021.01.04-18.23.18:708][791]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2021.01.04-18.23.18:708][791]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2021.01.04-18.23.18:708][791]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2021.01.04-18.23.18:708][791]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2021.01.04-18.23.18:708][791]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2021.01.04-18.23.18:708][791]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2021.01.04-18.23.18:708][791]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2021.01.04-18.23.18:708][791]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2021.01.04-18.23.18:721][791]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2021.01.04-18.23.18:724][791]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2021.01.04-18.23.18:724][791]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2021.01.04-18.23.18:724][791]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2021.01.04-18.23.18:724][791]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2021.01.04-18.23.18:724][791]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2021.01.04-18.23.18:724][791]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2021.01.04-18.23.18:725][791]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2021.01.04-18.23.18:923][791]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2021.01.04-18.23.18:924][791]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2021.01.04-18.23.18:926][791]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2021.01.04-18.23.18:926][791]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2021.01.04-18.23.18:926][791]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2021.01.04-18.23.18:926][791]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2021.01.04-18.23.18:926][791]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2021.01.04-18.23.18:926][791]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2021.01.04-18.23.18:926][791]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2021.01.04-18.23.18:926][791]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2021.01.04-18.23.18:926][791]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2021.01.04-18.23.19:027][791]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2021.01.04-18.23.19:128][791]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2021.01.04-18.23.19:128][791]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2021.01.04-18.23.19:128][791]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2021.01.04-18.23.19:128][791]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2021.01.04-18.23.19:128][791]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2021.01.04-18.23.19:128][791]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2021.01.04-18.23.19:129][791]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2021.01.04-18.23.19:129][791]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2021.01.04-18.23.19:129][791]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2021.01.04-18.23.19:129][791]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2021.01.04-18.23.19:130][791]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2021.01.04-18.23.19:131][791]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2021.01.04-18.23.19:131][791]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2021.01.04-18.23.19:131][791]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2021.01.04-18.23.19:131][791]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2021.01.04-18.23.19:131][791]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2021.01.04-18.23.19:131][791]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2021.01.04-18.23.19:133][791]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2021.01.04-18.23.19:133][791]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2021.01.04-18.23.19:133][791]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2021.01.04-18.23.19:133][791]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2021.01.04-18.23.19:133][791]LogModuleManager: Shutting down and abandoning module Core (164)
+[2021.01.04-18.23.19:133][791]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2021.01.04-18.23.19:247][791]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2021.01.04-18.23.19:247][791]LogDirectoryWatcher: A directory notification for '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/' was aborted.
+[2021.01.04-18.23.19:247][791]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2021.01.04-18.23.19:247][791]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2021.01.04-18.23.19:253][791]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2021.01.04-18.23.19:254][791]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2021.01.04-18.23.19:254][791]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2021.01.04-18.23.19:254][791]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2021.01.04-18.23.19:254][791]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2021.01.04-18.23.19:254][791]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2021.01.04-18.23.19:254][791]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2021.01.04-18.23.19:254][791]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2021.01.04-18.23.19:254][791]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2021.01.04-18.23.19:299][791]LogDerivedDataCache: Shutdown
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2021.01.04-18.23.19:299][791]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2021.01.04-18.23.19:300][791]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2021.01.04-18.23.19:300][791]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2021.01.04-18.23.19:300][791]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2021.01.04-18.23.19:300][791]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2021.01.04-18.23.19:300][791]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2021.01.04-18.23.19:300][791]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2021.01.04-18.23.19:300][791]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2021.01.04-18.23.19:300][791]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2021.01.04-18.23.19:300][791]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2021.01.04-18.23.19:300][791]LogOnline:Display: Unloading online subsystem: NULL
+[2021.01.04-18.23.19:300][791]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2021.01.04-18.23.19:300][791]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2021.01.04-18.23.19:300][791]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.01.04-18.23.19:300][791]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B03A40433-40C8-5A6A-D80A-C5A88D5A09DF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=e501a7c44c841f62f7de50abe6de14c6%7C277c8d9923434d3bb8920cc7c789e26e%7C7a263120-b56e-4687-b57b-11107039a0b9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2021.01.04-18.23.19:306][791]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2021.01.04-18.23.19:308][791]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2021.01.04-18.23.19:308][791]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2021.01.04-18.23.19:308][791]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2021.01.04-18.23.19:308][791]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2021.01.04-18.23.19:308][791]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2021.01.04-18.23.19:308][791]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2021.01.04-18.23.19:308][791]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2021.01.04-18.23.19:308][791]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2021.01.04-18.23.19:313][791]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2021.01.04-18.23.19:313][791]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2021.01.04-18.23.19:313][791]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2021.01.04-18.23.19:313][791]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2021.01.04-18.23.19:313][791]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2021.01.04-18.23.19:313][791]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2021.01.04-18.23.19:313][791]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2021.01.04-18.23.19:313][791]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2021.01.04-18.23.19:313][791]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2021.01.04-18.23.19:313][791]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2021.01.04-18.23.19:315][791]LogExit: Exiting.
+[2021.01.04-18.23.19:331][791]Log file closed, 01/04/21 19:23:19
