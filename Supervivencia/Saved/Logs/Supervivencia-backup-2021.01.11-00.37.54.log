@@ -1,0 +1,1507 @@
+﻿Log file open, 01/10/21 23:49:12
+LogInit:Display: Running engine for game: Supervivencia
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1896208845) SRandInit(-1896208845).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.129300
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/PROGRAMAS/UNREAL/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2021.01.10-22.49.13:037][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.10-22.49.13:037][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.10-22.49.13:048][  0]LogInit: Computer: DESKTOP-IQLRGCS
+[2021.01.10-22.49.13:048][  0]LogInit: User: Sofía
+[2021.01.10-22.49.13:048][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.01.10-22.49.13:048][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.10-22.49.13:049][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.01.10-22.49.13:049][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.10-22.49.13:049][  0]LogMemory: Process Physical Memory: 274.62 MB used, 274.62 MB peak
+[2021.01.10-22.49.13:049][  0]LogMemory: Process Virtual Memory: 267.36 MB used, 267.36 MB peak
+[2021.01.10-22.49.13:049][  0]LogMemory: Physical Memory: 5610.85 MB used,  10722.77 MB free, 16333.62 MB total
+[2021.01.10-22.49.13:049][  0]LogMemory: Virtual Memory: 4767.56 MB used,  10722.77 MB free, 134217728.00 MB total
+[2021.01.10-22.49.13:102][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.01.10-22.49.13:102][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2021.01.10-22.49.13:895][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.10-22.49.13:983][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 SUPER' (Feature Level 11_0)
+[2021.01.10-22.49.13:983][  0]LogD3D11RHI:       3955/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.01.10-22.49.13:984][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.10-22.49.13:984][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.10-22.49.13:984][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.10-22.49.13:989][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.10-22.49.13:989][  0]LogD3D11RHI:     GPU DeviceId: 0x2187 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.10-22.49.13:989][  0]LogWindows: EnumDisplayDevices:
+[2021.01.10-22.49.13:989][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1650 SUPER' (P:1 D:1)
+[2021.01.10-22.49.13:989][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1650 SUPER' (P:0 D:0)
+[2021.01.10-22.49.13:989][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1650 SUPER' (P:0 D:0)
+[2021.01.10-22.49.13:989][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1650 SUPER' (P:0 D:0)
+[2021.01.10-22.49.13:989][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.01.10-22.49.13:989][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 SUPER
+[2021.01.10-22.49.13:989][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.01.10-22.49.13:989][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.01.10-22.49.13:989][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.01.10-22.49.14:058][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.10-22.49.14:076][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.10-22.49.14:077][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Intermediate/Shaders/WorkingDirectory/16056/).
+[2021.01.10-22.49.14:077][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sofía/AppData/Local/Temp/UnrealShaderWorkingDir/AE4112A04AC8F0DD63B1658CBB6BC700/'.
+[2021.01.10-22.49.14:077][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2021.01.10-22.49.14:841][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2021.01.10-22.49.14:880][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2021.01.10-22.49.14:918][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2021.01.10-22.49.14:957][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2021.01.10-22.49.14:995][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2021.01.10-22.49.15:034][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2021.01.10-22.49.15:073][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.01.10-22.49.15:111][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2021.01.10-22.49.15:145][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2021.01.10-22.49.15:183][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2021.01.10-22.49.15:221][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2021.01.10-22.49.15:259][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2021.01.10-22.49.15:297][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2021.01.10-22.49.15:335][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2021.01.10-22.49.15:373][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2021.01.10-22.49.15:449][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2021.01.10-22.49.15:449][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2021.01.10-22.49.15:480][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2021.01.10-22.49.15:556][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2021.01.10-22.49.15:579][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2021.01.10-22.49.15:616][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2021.01.10-22.49.15:655][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2021.01.10-22.49.15:692][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2021.01.10-22.49.15:730][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2021.01.10-22.49.15:730][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.01.10-22.49.16:100][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.01.10-22.49.16:151][  0]LogDerivedDataCache: Loaded boot cache 0.05s 90MB C:/Users/Sofía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.10-22.49.16:151][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sofía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2021.01.10-22.49.16:151][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.10-22.49.16:151][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.10-22.49.16:151][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.10-22.49.16:151][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.10-22.49.16:167][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.10-22.49.16:179][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sofía/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.10-22.49.16:186][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.10-22.49.16:187][  0]LogSlate: Using Freetype 2.6.0
+[2021.01.10-22.49.16:187][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.10-22.49.16:187][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.10-22.49.16:444][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.10-22.49.16:490][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2021.01.10-22.49.16:603][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.10-22.49.16:636][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.01.10-22.49.16:674][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.01.10-22.49.16:674][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2021.01.10-22.49.16:674][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.01.10-22.49.17:053][  0]LogNetVersion: Supervivencia , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1556410374)
+[2021.01.10-22.49.17:104][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2021.01.10-22.49.17:138][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.017876 seconds
+[2021.01.10-22.49.17:143][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2021.01.10-22.49.17:143][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2021.01.10-22.49.17:143][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.10-22.49.17:189][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.01.10-22.49.18:989][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.10-22.49.19:023][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.10-22.49.19:442][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.01.10-22.49.19:740][  0]SourceControl: Info Source control is disabled
+[2021.01.10-22.49.19:741][  0]SourceControl: Info Source control is disabled
+[2021.01.10-22.49.19:779][  0]SourceControl: Info Source control is disabled
+[2021.01.10-22.49.19:818][  0]SourceControl: Info Source control is disabled
+[2021.01.10-22.49.20:354][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.10-22.49.20:823][  0]LogEngine: Initializing Engine...
+[2021.01.10-22.49.20:824][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.10-22.49.20:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.01.10-22.49.20:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.01.10-22.49.21:038][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.10-22.49.21:049][  0]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.10-22.49.21:065][  0]LogInit: FAudioDevice initialized.
+[2021.01.10-22.49.21:101][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Sofía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.10-22.49.21:110][  0]LogInit: Texture streaming: Enabled
+[2021.01.10-22.49.21:182][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.10-22.49.21:347][  0]LogInit: Transaction tracking system initialized
+[2021.01.10-22.49.21:584][  0]BlueprintLog: New page: Editor Load
+[2021.01.10-22.49.22:289][  0]LocalizationService: Info Localization service is disabled
+[2021.01.10-22.49.22:812][  0]LogConsoleResponse:Display: 
+[2021.01.10-22.49.22:911][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.10-22.49.22:911][  0]LogCook:Display: Mobile HDR setting 1
+[2021.01.10-22.49.23:741][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/' took 0.04s
+[2021.01.10-22.49.23:741][  0]SourceControl: Info Source control is disabled
+[2021.01.10-22.49.23:741][  0]Cmd: MAP LOAD FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.10-22.49.23:746][  0]LightingResults: New page: Lighting Build
+[2021.01.10-22.49.23:777][  0]MapCheck: New page: Map Check
+[2021.01.10-22.49.23:777][  0]LightingResults: New page: Lighting Build
+[2021.01.10-22.49.23:816][  0]LogAIModule: Creating AISystem for world Menu
+[2021.01.10-22.49.23:816][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.10-22.49.23:821][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.10-22.49.23:860][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.259ms to complete.
+[2021.01.10-22.49.23:860][  0]LogFileHelpers: Loading map 'Menu' took 0.118
+[2021.01.10-22.49.23:994][  0]LogCollectionManager: Loaded 0 collections in 0.000867 seconds
+[2021.01.10-22.49.24:063][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Collections/' took 0.01s
+[2021.01.10-22.49.24:063][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Developers/Sofía/Collections/' took 0.01s
+[2021.01.10-22.49.24:063][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Collections/' took 0.01s
+[2021.01.10-22.49.24:063][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2021.01.10-22.49.24:071][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2329 classes and 491 folders.
+[2021.01.10-22.49.24:119][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.01.10-22.49.24:429][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.01.10-22.49.24:463][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2021.01.10-22.49.24:491][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.01.10-22.49.24:498][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.10-22.49.24:499][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.10-22.49.24:508][  0]LogSlate: Took 0.005826 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.10-22.49.24:518][  0]LogSlate: Took 0.007534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.10-22.49.24:633][  0]LogRenderer: Reallocating scene render targets to support 1076x424 NumSamples 1 (Frame:1).
+[2021.01.10-22.49.24:719][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2021.01.10-22.49.24:774][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2021.01.10-22.49.24:774][  0]LogLoad: (Engine Initialization) Total time: 13.31 seconds
+[2021.01.10-22.49.24:774][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2021.01.10-22.49.24:774][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.01.10-22.49.24:796][  0]LogOcInput: OculusInput pre-init called
+[2021.01.10-22.49.24:796][  0]LogHMD: Starting GearVRController plugin
+[2021.01.10-22.49.24:824][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.10-22.49.24:862][  0]LogSlate: Took 0.003603 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.10-22.49.24:874][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/' took 0.07s
+[2021.01.10-22.49.24:887][  1]LogAssetRegistry: Asset discovery search completed in 7.8050 seconds
+[2021.01.10-22.49.24:890][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2021.01.10-22.49.24:890][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000119 seconds (updated 0 objects)
+[2021.01.10-22.49.25:804][108]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.10-22.49.30:770][581]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.10-22.49.31:091][581]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2021.01.10-22.49.32:324][581]LogSlate: Took 0.003972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.10-22.50.00:815][380]LogAIModule: Creating AISystem for world Level2
+[2021.01.10-22.50.00:852][380]Cmd: MAP LOAD FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.10-22.50.00:852][380]LightingResults: New page: Lighting Build
+[2021.01.10-22.50.00:853][380]LoadErrors: New page: Loading map: Level2.umap
+[2021.01.10-22.50.00:853][380]MapCheck: New page: Map Check
+[2021.01.10-22.50.00:853][380]LightingResults: New page: Lighting Build
+[2021.01.10-22.50.00:884][380]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.10-22.50.00:939][380]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.10-22.50.01:001][380]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.196ms to complete.
+[2021.01.10-22.50.01:001][380]LogFileHelpers: Loading map 'Level2' took 0.150
+[2021.01.10-22.50.27:782][587]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.10-22.50.27:918][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.10-22.50.27:918][587]PIE: New page: PIE session: Level2 (Jan 11, 2021, 12:50:27 AM)
+[2021.01.10-22.50.27:919][587]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.10-22.50.27:934][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014951s)
+[2021.01.10-22.50.27:934][587]LogAIModule: Creating AISystem for world Level2
+[2021.01.10-22.50.27:935][587]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2021.01.10-22.50.27:935][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.015972s)
+[2021.01.10-22.50.27:953][587]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.10-22.50.27:964][587]LogInit: FAudioDevice initialized.
+[2021.01.10-22.50.28:008][587]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.10-22.50.28:013][587]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.10-23.50.28
+[2021.01.10-22.50.28:014][587]LogWorld: Bringing up level for play took: 0.004966
+[2021.01.10-22.50.28:046][587]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2021.01.10-22.50.28:049][587]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.892
+[2021.01.10-22.50.37:727][745]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2021.01.10-22.50.37:744][747]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2021.01.10-22.50.37:763][749]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2021.01.10-22.50.37:789][752]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2021.01.10-22.51.06:307][172]LogBlueprintUserMessages: [bomb_Blueprint_C_0] exploded
+[2021.01.10-22.55.09:398][554]LogSlate: Took 0.003931 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.10-22.55.47:565][779]BlueprintLog: New page: Compile mina_blueprint
+[2021.01.10-22.55.49:921][ 47]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.10-22.55.49:947][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.10-22.55.49:947][ 47]PIE: New page: PIE session: Level2 (Jan 11, 2021, 12:55:49 AM)
+[2021.01.10-22.55.49:947][ 47]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.10-22.55.49:962][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015012s)
+[2021.01.10-22.55.49:963][ 47]LogAIModule: Creating AISystem for world Level2
+[2021.01.10-22.55.49:963][ 47]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2021.01.10-22.55.49:964][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.016260s)
+[2021.01.10-22.55.49:983][ 47]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.10-22.55.49:994][ 47]LogInit: FAudioDevice initialized.
+[2021.01.10-22.55.50:022][ 47]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.10-22.55.50:027][ 47]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.10-23.55.50
+[2021.01.10-22.55.50:027][ 47]LogWorld: Bringing up level for play took: 0.004560
+[2021.01.10-22.55.50:030][ 47]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.874
+[2021.01.10-22.56.37:521][493]BlueprintLog: New page: Compile mina_blueprint
+[2021.01.10-22.56.39:738][745]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.10-22.56.39:769][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.10-22.56.39:769][745]PIE: New page: PIE session: Level2 (Jan 11, 2021, 12:56:39 AM)
+[2021.01.10-22.56.39:770][745]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.10-22.56.39:784][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014556s)
+[2021.01.10-22.56.39:785][745]LogAIModule: Creating AISystem for world Level2
+[2021.01.10-22.56.39:785][745]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2021.01.10-22.56.39:785][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.015584s)
+[2021.01.10-22.56.39:804][745]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.10-22.56.39:815][745]LogInit: FAudioDevice initialized.
+[2021.01.10-22.56.39:842][745]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.10-22.56.39:846][745]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.10-23.56.39
+[2021.01.10-22.56.39:847][745]LogWorld: Bringing up level for play took: 0.004424
+[2021.01.10-22.56.39:849][745]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.694
+[2021.01.10-22.57.39:225][342]BlueprintLog: New page: Compile mina_blueprint
+[2021.01.10-22.58.39:882][821]LogHttp:Warning: 000002D94E2A3A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.10-22.58.39:882][821]LogHttp:Warning: 000002D94E2A3A00: libcurl info message cache 0 (Connection 2 seems to be dead!)
+[2021.01.10-22.58.39:882][821]LogHttp:Warning: 000002D94E2A3A00: libcurl info message cache 1 (Closing connection 2)
+[2021.01.10-22.58.39:882][821]LogHttp:Warning: 000002D94E2A3A00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.01.10-22.58.39:883][821]LogHttp:Warning: 000002D94E2A3A00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.10-22.58.39:883][821]LogHttp:Warning: 000002D94E2A3A00: libcurl info message cache 4 (Closing connection 3)
+[2021.01.10-23.00.58:438][235]LogSavePackage: Save=181.43ms
+[2021.01.10-23.00.58:438][235]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Level2_Auto1C52F157540B34A74575FF69DD3BA8565.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/Levels/Level2_Auto1.umap'
+[2021.01.10-23.00.58:439][235]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/Levels/Level2_Auto1.umap
+[2021.01.10-23.00.58:443][235]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.219
+[2021.01.10-23.00.58:444][235]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.219
+[2021.01.10-23.00.58:445][235]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/mina/mina_blueprint] ([1] browsable assets)...
+[2021.01.10-23.00.58:473][235]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/mina/mina_blueprint.mina_blueprint]
+[2021.01.10-23.00.58:473][235]OBJ SavePackage: Finished generating thumbnails for package [/Game/mina/mina_blueprint]
+[2021.01.10-23.00.58:509][235]LogSavePackage: Save=25.00ms
+[2021.01.10-23.00.58:509][235]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/mina_blueprint_Auto188B5831A432A3949565286BD59A96708.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/mina/mina_blueprint_Auto1.uasset'
+[2021.01.10-23.00.58:510][235]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Autosaves/Game/mina/mina_blueprint_Auto1.uasset
+[2021.01.10-23.00.58:511][235]LogFileHelpers: Auto-saving content packages took 0.065
+[2021.01.10-23.02.36:216][530]LogHttp:Warning: 000002D880061780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.10-23.02.36:216][530]LogHttp:Warning: 000002D880061780: libcurl info message cache 0 (Connection 4 seems to be dead!)
+[2021.01.10-23.02.36:216][530]LogHttp:Warning: 000002D880061780: libcurl info message cache 1 (Closing connection 4)
+[2021.01.10-23.02.36:216][530]LogHttp:Warning: 000002D880061780: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.01.10-23.02.36:216][530]LogHttp:Warning: 000002D880061780: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.10-23.02.36:216][530]LogHttp:Warning: 000002D880061780: libcurl info message cache 4 (Closing connection 5)
+[2021.01.10-23.15.52:223][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.10-23.15.52:428][917]LogSavePackage: Save=175.11ms
+[2021.01.10-23.15.52:428][917]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Level238589834436A0D98D4E44694384B27F8.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap'
+[2021.01.10-23.15.52:433][917]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap
+[2021.01.10-23.15.52:466][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2021.01.10-23.15.52:683][917]LogSavePackage: Save=200.11ms
+[2021.01.10-23.15.52:683][917]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Level2_BuiltData8B1C286A404913A79903A98CEA9ED366.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset'
+[2021.01.10-23.15.52:685][917]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset
+[2021.01.10-23.17.44:102][460]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Death_3.Death_3
+[2021.01.10-23.17.44:581][460]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2021.01.10-23.17.44:765][460]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.10-23.17.44:815][460]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.10-23.17.44:948][460]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.10-23.17.45:372][460]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2021.01.10-23.17.45:383][460]LogRenderer: Reallocating scene render targets to support 1144x548 NumSamples 1 (Frame:1).
+[2021.01.10-23.17.45:383][460]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.10-23.17.46:676][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.10-23.17.46:768][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.10-23.17.46:829][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.10-23.17.48:500][748]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Death_1.Death_1
+[2021.01.10-23.17.48:516][748]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2021.01.10-23.17.48:553][748]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2021.01.10-23.17.48:781][748]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.10-23.20.13:098][776]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../CLASE/VIDEOJUEGOS/LAB/assets/de_dust2-cs-map/source/de_dust2/de_dust2.obj)
+[2021.01.10-23.20.13:179][776]LogFbx: Loading FBX Scene from ../../../../../../CLASE/VIDEOJUEGOS/LAB/assets/de_dust2-cs-map/source/de_dust2/de_dust2.obj
+[2021.01.10-23.20.13:304][776]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.10-23.20.13:307][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_21' was rename 'material_21_ncl1_1' 
+[2021.01.10-23.20.13:307][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_32' was rename 'material_32_ncl1_1' 
+[2021.01.10-23.20.13:307][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_33' was rename 'material_33_ncl1_1' 
+[2021.01.10-23.20.13:308][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_21' was rename 'material_21_ncl1_2' 
+[2021.01.10-23.20.13:308][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_31' was rename 'material_31_ncl1_1' 
+[2021.01.10-23.20.13:308][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_21' was rename 'material_21_ncl1_3' 
+[2021.01.10-23.20.13:308][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_31' was rename 'material_31_ncl1_2' 
+[2021.01.10-23.20.13:308][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_1' was rename 'material_1_ncl1_1' 
+[2021.01.10-23.20.13:308][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_2' was rename 'material_2_ncl1_1' 
+[2021.01.10-23.20.13:308][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_9' was rename 'material_9_ncl1_1' 
+[2021.01.10-23.20.13:309][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_31' was rename 'material_31_ncl1_3' 
+[2021.01.10-23.20.13:309][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_21' was rename 'material_21_ncl1_4' 
+[2021.01.10-23.20.16:776][776]LogFbx: Loading FBX Scene from ../../../../../../CLASE/VIDEOJUEGOS/LAB/assets/de_dust2-cs-map/source/de_dust2/de_dust2.obj
+[2021.01.10-23.20.16:879][776]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.10-23.20.16:882][776]LogLinker: Can't find file '/Game/map/material_0'
+[2021.01.10-23.20.16:882][776]LogLinker: Can't find file '/Game/map/material_0'
+[2021.01.10-23.20.16:890][776]LogLinker: Can't find file '/Game/map/de_dust2_material_0'
+[2021.01.10-23.20.16:890][776]LogLinker: Can't find file '/Game/map/de_dust2_material_0'
+[2021.01.10-23.20.16:909][776]LogTexture:Display: Building textures: de_dust2_material_0 (AutoDXT, 96X32)
+[2021.01.10-23.20.16:919][776]LogMaterial: Missing cached shader map for material material_0, compiling. 
+[2021.01.10-23.20.16:969][776]LogLinker: Can't find file '/Game/map/material_1'
+[2021.01.10-23.20.16:969][776]LogLinker: Can't find file '/Game/map/material_1'
+[2021.01.10-23.20.16:971][776]LogLinker: Can't find file '/Game/map/de_dust2_material_1'
+[2021.01.10-23.20.16:971][776]LogLinker: Can't find file '/Game/map/de_dust2_material_1'
+[2021.01.10-23.20.16:980][776]LogTexture:Display: Building textures: de_dust2_material_1 (AutoDXT, 128X240)
+[2021.01.10-23.20.17:011][776]LogMaterial: Missing cached shader map for material material_1, compiling. 
+[2021.01.10-23.20.17:022][776]LogLinker: Can't find file '/Game/map/material_2'
+[2021.01.10-23.20.17:022][776]LogLinker: Can't find file '/Game/map/material_2'
+[2021.01.10-23.20.17:024][776]LogLinker: Can't find file '/Game/map/de_dust2_material_2'
+[2021.01.10-23.20.17:024][776]LogLinker: Can't find file '/Game/map/de_dust2_material_2'
+[2021.01.10-23.20.17:035][776]LogTexture:Display: Building textures: de_dust2_material_2 (AutoDXT, 64X64)
+[2021.01.10-23.20.17:043][776]LogMaterial: Missing cached shader map for material material_2, compiling. 
+[2021.01.10-23.20.17:054][776]LogLinker: Can't find file '/Game/map/material_3'
+[2021.01.10-23.20.17:054][776]LogLinker: Can't find file '/Game/map/material_3'
+[2021.01.10-23.20.17:056][776]LogLinker: Can't find file '/Game/map/de_dust2_material_3'
+[2021.01.10-23.20.17:056][776]LogLinker: Can't find file '/Game/map/de_dust2_material_3'
+[2021.01.10-23.20.17:067][776]LogTexture:Display: Building textures: de_dust2_material_3 (AutoDXT, 32X32)
+[2021.01.10-23.20.17:072][776]LogMaterial: Missing cached shader map for material material_3, compiling. 
+[2021.01.10-23.20.17:082][776]LogLinker: Can't find file '/Game/map/material_4'
+[2021.01.10-23.20.17:083][776]LogLinker: Can't find file '/Game/map/material_4'
+[2021.01.10-23.20.17:085][776]LogLinker: Can't find file '/Game/map/de_dust2_material_4'
+[2021.01.10-23.20.17:085][776]LogLinker: Can't find file '/Game/map/de_dust2_material_4'
+[2021.01.10-23.20.17:096][776]LogTexture:Display: Building textures: de_dust2_material_4 (AutoDXT, 128X240)
+[2021.01.10-23.20.17:125][776]LogMaterial: Missing cached shader map for material material_4, compiling. 
+[2021.01.10-23.20.17:136][776]LogLinker: Can't find file '/Game/map/material_5'
+[2021.01.10-23.20.17:137][776]LogLinker: Can't find file '/Game/map/material_5'
+[2021.01.10-23.20.17:139][776]LogLinker: Can't find file '/Game/map/de_dust2_material_5'
+[2021.01.10-23.20.17:139][776]LogLinker: Can't find file '/Game/map/de_dust2_material_5'
+[2021.01.10-23.20.17:149][776]LogTexture:Display: Building textures: de_dust2_material_5 (AutoDXT, 256X256)
+[2021.01.10-23.20.17:185][776]LogMaterial: Missing cached shader map for material material_5, compiling. 
+[2021.01.10-23.20.17:196][776]LogLinker: Can't find file '/Game/map/material_6'
+[2021.01.10-23.20.17:197][776]LogLinker: Can't find file '/Game/map/material_6'
+[2021.01.10-23.20.17:200][776]LogLinker: Can't find file '/Game/map/de_dust2_material_6'
+[2021.01.10-23.20.17:200][776]LogLinker: Can't find file '/Game/map/de_dust2_material_6'
+[2021.01.10-23.20.17:212][776]LogTexture:Display: Building textures: de_dust2_material_6 (AutoDXT, 128X128)
+[2021.01.10-23.20.17:233][776]LogMaterial: Missing cached shader map for material material_6, compiling. 
+[2021.01.10-23.20.17:244][776]LogLinker: Can't find file '/Game/map/material_7'
+[2021.01.10-23.20.17:245][776]LogLinker: Can't find file '/Game/map/material_7'
+[2021.01.10-23.20.17:247][776]LogLinker: Can't find file '/Game/map/de_dust2_material_7'
+[2021.01.10-23.20.17:247][776]LogLinker: Can't find file '/Game/map/de_dust2_material_7'
+[2021.01.10-23.20.17:257][776]LogTexture:Display: Building textures: de_dust2_material_7 (AutoDXT, 192X160)
+[2021.01.10-23.20.17:281][776]LogMaterial: Missing cached shader map for material material_7, compiling. 
+[2021.01.10-23.20.17:293][776]LogLinker: Can't find file '/Game/map/material_8'
+[2021.01.10-23.20.17:293][776]LogLinker: Can't find file '/Game/map/material_8'
+[2021.01.10-23.20.17:296][776]LogLinker: Can't find file '/Game/map/de_dust2_material_8'
+[2021.01.10-23.20.17:296][776]LogLinker: Can't find file '/Game/map/de_dust2_material_8'
+[2021.01.10-23.20.17:307][776]LogTexture:Display: Building textures: de_dust2_material_8 (AutoDXT, 256X240)
+[2021.01.10-23.20.17:355][776]LogMaterial: Missing cached shader map for material material_8, compiling. 
+[2021.01.10-23.20.17:366][776]LogLinker: Can't find file '/Game/map/material_9'
+[2021.01.10-23.20.17:366][776]LogLinker: Can't find file '/Game/map/material_9'
+[2021.01.10-23.20.17:368][776]LogLinker: Can't find file '/Game/map/de_dust2_material_9'
+[2021.01.10-23.20.17:368][776]LogLinker: Can't find file '/Game/map/de_dust2_material_9'
+[2021.01.10-23.20.17:377][776]LogTexture:Display: Building textures: de_dust2_material_9 (AutoDXT, 64X64)
+[2021.01.10-23.20.17:386][776]LogMaterial: Missing cached shader map for material material_9, compiling. 
+[2021.01.10-23.20.17:397][776]LogLinker: Can't find file '/Game/map/material_10'
+[2021.01.10-23.20.17:397][776]LogLinker: Can't find file '/Game/map/material_10'
+[2021.01.10-23.20.17:399][776]LogLinker: Can't find file '/Game/map/de_dust2_material_10'
+[2021.01.10-23.20.17:399][776]LogLinker: Can't find file '/Game/map/de_dust2_material_10'
+[2021.01.10-23.20.17:409][776]LogTexture:Display: Building textures: de_dust2_material_10 (AutoDXT, 256X192)
+[2021.01.10-23.20.17:455][776]LogMaterial: Missing cached shader map for material material_10, compiling. 
+[2021.01.10-23.20.17:466][776]LogLinker: Can't find file '/Game/map/material_11'
+[2021.01.10-23.20.17:466][776]LogLinker: Can't find file '/Game/map/material_11'
+[2021.01.10-23.20.17:469][776]LogLinker: Can't find file '/Game/map/de_dust2_material_11'
+[2021.01.10-23.20.17:469][776]LogLinker: Can't find file '/Game/map/de_dust2_material_11'
+[2021.01.10-23.20.17:479][776]LogTexture:Display: Building textures: de_dust2_material_11 (AutoDXT, 128X256)
+[2021.01.10-23.20.17:505][776]LogMaterial: Missing cached shader map for material material_11, compiling. 
+[2021.01.10-23.20.17:516][776]LogLinker: Can't find file '/Game/map/material_12'
+[2021.01.10-23.20.17:517][776]LogLinker: Can't find file '/Game/map/material_12'
+[2021.01.10-23.20.17:519][776]LogLinker: Can't find file '/Game/map/de_dust2_material_12'
+[2021.01.10-23.20.17:520][776]LogLinker: Can't find file '/Game/map/de_dust2_material_12'
+[2021.01.10-23.20.17:532][776]LogTexture:Display: Building textures: de_dust2_material_12 (AutoDXT, 128X128)
+[2021.01.10-23.20.17:552][776]LogMaterial: Missing cached shader map for material material_12, compiling. 
+[2021.01.10-23.20.17:566][776]LogLinker: Can't find file '/Game/map/material_13'
+[2021.01.10-23.20.17:567][776]LogLinker: Can't find file '/Game/map/material_13'
+[2021.01.10-23.20.17:569][776]LogLinker: Can't find file '/Game/map/de_dust2_material_13'
+[2021.01.10-23.20.17:569][776]LogLinker: Can't find file '/Game/map/de_dust2_material_13'
+[2021.01.10-23.20.17:578][776]LogTexture:Display: Building textures: de_dust2_material_13 (AutoDXT, 256X96)
+[2021.01.10-23.20.17:603][776]LogMaterial: Missing cached shader map for material material_13, compiling. 
+[2021.01.10-23.20.17:614][776]LogLinker: Can't find file '/Game/map/material_14'
+[2021.01.10-23.20.17:614][776]LogLinker: Can't find file '/Game/map/material_14'
+[2021.01.10-23.20.17:616][776]LogLinker: Can't find file '/Game/map/de_dust2_material_14'
+[2021.01.10-23.20.17:616][776]LogLinker: Can't find file '/Game/map/de_dust2_material_14'
+[2021.01.10-23.20.17:626][776]LogTexture:Display: Building textures: de_dust2_material_14 (AutoDXT, 256X96)
+[2021.01.10-23.20.17:650][776]LogMaterial: Missing cached shader map for material material_14, compiling. 
+[2021.01.10-23.20.17:662][776]LogLinker: Can't find file '/Game/map/material_15'
+[2021.01.10-23.20.17:662][776]LogLinker: Can't find file '/Game/map/material_15'
+[2021.01.10-23.20.17:664][776]LogLinker: Can't find file '/Game/map/de_dust2_material_15'
+[2021.01.10-23.20.17:665][776]LogLinker: Can't find file '/Game/map/de_dust2_material_15'
+[2021.01.10-23.20.17:674][776]LogTexture:Display: Building textures: de_dust2_material_15 (AutoDXT, 256X192)
+[2021.01.10-23.20.17:711][776]LogMaterial: Missing cached shader map for material material_15, compiling. 
+[2021.01.10-23.20.17:722][776]LogLinker: Can't find file '/Game/map/material_16'
+[2021.01.10-23.20.17:722][776]LogLinker: Can't find file '/Game/map/material_16'
+[2021.01.10-23.20.17:724][776]LogLinker: Can't find file '/Game/map/de_dust2_material_16'
+[2021.01.10-23.20.17:724][776]LogLinker: Can't find file '/Game/map/de_dust2_material_16'
+[2021.01.10-23.20.17:734][776]LogTexture:Display: Building textures: de_dust2_material_16 (AutoDXT, 128X240)
+[2021.01.10-23.20.17:763][776]LogMaterial: Missing cached shader map for material material_16, compiling. 
+[2021.01.10-23.20.17:774][776]LogLinker: Can't find file '/Game/map/material_17'
+[2021.01.10-23.20.17:774][776]LogLinker: Can't find file '/Game/map/material_17'
+[2021.01.10-23.20.17:777][776]LogLinker: Can't find file '/Game/map/de_dust2_material_17'
+[2021.01.10-23.20.17:777][776]LogLinker: Can't find file '/Game/map/de_dust2_material_17'
+[2021.01.10-23.20.17:787][776]LogTexture:Display: Building textures: de_dust2_material_17 (AutoDXT, 128X128)
+[2021.01.10-23.20.17:805][776]LogMaterial: Missing cached shader map for material material_17, compiling. 
+[2021.01.10-23.20.17:815][776]LogLinker: Can't find file '/Game/map/material_18'
+[2021.01.10-23.20.17:815][776]LogLinker: Can't find file '/Game/map/material_18'
+[2021.01.10-23.20.17:818][776]LogLinker: Can't find file '/Game/map/de_dust2_material_18'
+[2021.01.10-23.20.17:818][776]LogLinker: Can't find file '/Game/map/de_dust2_material_18'
+[2021.01.10-23.20.17:834][776]LogTexture:Display: Building textures: de_dust2_material_18 (AutoDXT, 32X32)
+[2021.01.10-23.20.17:839][776]LogMaterial: Missing cached shader map for material material_18, compiling. 
+[2021.01.10-23.20.17:850][776]LogLinker: Can't find file '/Game/map/material_19'
+[2021.01.10-23.20.17:850][776]LogLinker: Can't find file '/Game/map/material_19'
+[2021.01.10-23.20.17:853][776]LogLinker: Can't find file '/Game/map/de_dust2_material_19'
+[2021.01.10-23.20.17:853][776]LogLinker: Can't find file '/Game/map/de_dust2_material_19'
+[2021.01.10-23.20.17:866][776]LogTexture:Display: Building textures: de_dust2_material_19 (AutoDXT, 256X256)
+[2021.01.10-23.20.17:878][776]LogMaterial: Missing cached shader map for material material_19, compiling. 
+[2021.01.10-23.20.17:894][776]LogLinker: Can't find file '/Game/map/material_20'
+[2021.01.10-23.20.17:894][776]LogLinker: Can't find file '/Game/map/material_20'
+[2021.01.10-23.20.17:900][776]LogLinker: Can't find file '/Game/map/de_dust2_material_20'
+[2021.01.10-23.20.17:901][776]LogLinker: Can't find file '/Game/map/de_dust2_material_20'
+[2021.01.10-23.20.17:911][776]LogTexture:Display: Building textures: de_dust2_material_20 (AutoDXT, 64X64)
+[2021.01.10-23.20.17:919][776]LogMaterial: Missing cached shader map for material material_20, compiling. 
+[2021.01.10-23.20.17:930][776]LogLinker: Can't find file '/Game/map/material_21'
+[2021.01.10-23.20.17:930][776]LogLinker: Can't find file '/Game/map/material_21'
+[2021.01.10-23.20.17:932][776]LogLinker: Can't find file '/Game/map/de_dust2_material_21'
+[2021.01.10-23.20.17:932][776]LogLinker: Can't find file '/Game/map/de_dust2_material_21'
+[2021.01.10-23.20.17:943][776]LogTexture:Display: Building textures: de_dust2_material_21 (AutoDXT, 64X64)
+[2021.01.10-23.20.17:953][776]LogMaterial: Missing cached shader map for material material_21, compiling. 
+[2021.01.10-23.20.17:967][776]LogLinker: Can't find file '/Game/map/material_22'
+[2021.01.10-23.20.17:967][776]LogLinker: Can't find file '/Game/map/material_22'
+[2021.01.10-23.20.17:971][776]LogLinker: Can't find file '/Game/map/de_dust2_material_22'
+[2021.01.10-23.20.17:971][776]LogLinker: Can't find file '/Game/map/de_dust2_material_22'
+[2021.01.10-23.20.17:986][776]LogTexture:Display: Building textures: de_dust2_material_22 (AutoDXT, 128X128)
+[2021.01.10-23.20.18:014][776]LogMaterial: Missing cached shader map for material material_22, compiling. 
+[2021.01.10-23.20.18:031][776]LogLinker: Can't find file '/Game/map/material_23'
+[2021.01.10-23.20.18:031][776]LogLinker: Can't find file '/Game/map/material_23'
+[2021.01.10-23.20.18:034][776]LogLinker: Can't find file '/Game/map/de_dust2_material_23'
+[2021.01.10-23.20.18:035][776]LogLinker: Can't find file '/Game/map/de_dust2_material_23'
+[2021.01.10-23.20.18:053][776]LogTexture:Display: Building textures: de_dust2_material_23 (AutoDXT, 192X160)
+[2021.01.10-23.20.18:080][776]LogMaterial: Missing cached shader map for material material_23, compiling. 
+[2021.01.10-23.20.18:096][776]LogLinker: Can't find file '/Game/map/material_24'
+[2021.01.10-23.20.18:096][776]LogLinker: Can't find file '/Game/map/material_24'
+[2021.01.10-23.20.18:099][776]LogLinker: Can't find file '/Game/map/de_dust2_material_24'
+[2021.01.10-23.20.18:099][776]LogLinker: Can't find file '/Game/map/de_dust2_material_24'
+[2021.01.10-23.20.18:114][776]LogTexture:Display: Building textures: de_dust2_material_24 (AutoDXT, 256X128)
+[2021.01.10-23.20.18:126][776]LogMaterial: Missing cached shader map for material material_24, compiling. 
+[2021.01.10-23.20.18:142][776]LogLinker: Can't find file '/Game/map/material_25'
+[2021.01.10-23.20.18:142][776]LogLinker: Can't find file '/Game/map/material_25'
+[2021.01.10-23.20.18:146][776]LogLinker: Can't find file '/Game/map/de_dust2_material_25'
+[2021.01.10-23.20.18:146][776]LogLinker: Can't find file '/Game/map/de_dust2_material_25'
+[2021.01.10-23.20.18:161][776]LogTexture:Display: Building textures: de_dust2_material_25 (AutoDXT, 256X256)
+[2021.01.10-23.20.18:203][776]LogMaterial: Missing cached shader map for material material_25, compiling. 
+[2021.01.10-23.20.18:222][776]LogLinker: Can't find file '/Game/map/material_26'
+[2021.01.10-23.20.18:222][776]LogLinker: Can't find file '/Game/map/material_26'
+[2021.01.10-23.20.18:226][776]LogLinker: Can't find file '/Game/map/de_dust2_material_26'
+[2021.01.10-23.20.18:226][776]LogLinker: Can't find file '/Game/map/de_dust2_material_26'
+[2021.01.10-23.20.18:241][776]LogTexture:Display: Building textures: de_dust2_material_26 (AutoDXT, 192X160)
+[2021.01.10-23.20.18:264][776]LogMaterial: Missing cached shader map for material material_26, compiling. 
+[2021.01.10-23.20.18:280][776]LogLinker: Can't find file '/Game/map/material_27'
+[2021.01.10-23.20.18:280][776]LogLinker: Can't find file '/Game/map/material_27'
+[2021.01.10-23.20.18:284][776]LogLinker: Can't find file '/Game/map/de_dust2_material_27'
+[2021.01.10-23.20.18:284][776]LogLinker: Can't find file '/Game/map/de_dust2_material_27'
+[2021.01.10-23.20.18:298][776]LogTexture:Display: Building textures: de_dust2_material_27 (AutoDXT, 128X240)
+[2021.01.10-23.20.18:334][776]LogMaterial: Missing cached shader map for material material_27, compiling. 
+[2021.01.10-23.20.18:350][776]LogLinker: Can't find file '/Game/map/material_28'
+[2021.01.10-23.20.18:350][776]LogLinker: Can't find file '/Game/map/material_28'
+[2021.01.10-23.20.18:353][776]LogLinker: Can't find file '/Game/map/de_dust2_material_28'
+[2021.01.10-23.20.18:353][776]LogLinker: Can't find file '/Game/map/de_dust2_material_28'
+[2021.01.10-23.20.18:368][776]LogTexture:Display: Building textures: de_dust2_material_28 (AutoDXT, 192X160)
+[2021.01.10-23.20.18:391][776]LogMaterial: Missing cached shader map for material material_28, compiling. 
+[2021.01.10-23.20.18:407][776]LogLinker: Can't find file '/Game/map/material_29'
+[2021.01.10-23.20.18:407][776]LogLinker: Can't find file '/Game/map/material_29'
+[2021.01.10-23.20.18:411][776]LogLinker: Can't find file '/Game/map/de_dust2_material_29'
+[2021.01.10-23.20.18:411][776]LogLinker: Can't find file '/Game/map/de_dust2_material_29'
+[2021.01.10-23.20.18:427][776]LogTexture:Display: Building textures: de_dust2_material_29 (AutoDXT, 192X160)
+[2021.01.10-23.20.18:450][776]LogMaterial: Missing cached shader map for material material_29, compiling. 
+[2021.01.10-23.20.18:466][776]LogLinker: Can't find file '/Game/map/material_30'
+[2021.01.10-23.20.18:466][776]LogLinker: Can't find file '/Game/map/material_30'
+[2021.01.10-23.20.18:469][776]LogLinker: Can't find file '/Game/map/de_dust2_material_30'
+[2021.01.10-23.20.18:469][776]LogLinker: Can't find file '/Game/map/de_dust2_material_30'
+[2021.01.10-23.20.18:488][776]LogTexture:Display: Building textures: de_dust2_material_30 (AutoDXT, 192X160)
+[2021.01.10-23.20.18:515][776]LogMaterial: Missing cached shader map for material material_30, compiling. 
+[2021.01.10-23.20.18:531][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_0
+[2021.01.10-23.20.19:061][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_0...
+[2021.01.10-23.20.19:078][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:394][776]LogStaticMesh: Built static mesh [0.33s] /Game/map/de_dust2_BSP_Object_model_0.de_dust2_BSP_Object_model_0
+[2021.01.10-23.20.19:473][776]LogLinker: Can't find file '/Game/map/material_31'
+[2021.01.10-23.20.19:473][776]LogLinker: Can't find file '/Game/map/material_31'
+[2021.01.10-23.20.19:477][776]LogLinker: Can't find file '/Game/map/de_dust2_material_31'
+[2021.01.10-23.20.19:477][776]LogLinker: Can't find file '/Game/map/de_dust2_material_31'
+[2021.01.10-23.20.19:493][776]LogTexture:Display: Building textures: de_dust2_material_31 (AutoDXT, 64X64)
+[2021.01.10-23.20.19:503][776]LogMaterial: Missing cached shader map for material material_31, compiling. 
+[2021.01.10-23.20.19:519][776]LogLinker: Can't find file '/Game/map/material_21_ncl1_1'
+[2021.01.10-23.20.19:520][776]LogLinker: Can't find file '/Game/map/material_21_ncl1_1'
+[2021.01.10-23.20.19:535][776]LogTexture:Display: Building textures: de_dust2_material_21 (AutoDXT, 64X64)
+[2021.01.10-23.20.19:543][776]LogMaterial: Missing cached shader map for material material_21_ncl1_1, compiling. 
+[2021.01.10-23.20.19:559][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_1
+[2021.01.10-23.20.19:562][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_1...
+[2021.01.10-23.20.19:562][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:565][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_1.de_dust2_BSP_Object_model_1
+[2021.01.10-23.20.19:572][776]LogLinker: Can't find file '/Game/map/material_33'
+[2021.01.10-23.20.19:573][776]LogLinker: Can't find file '/Game/map/material_33'
+[2021.01.10-23.20.19:575][776]LogLinker: Can't find file '/Game/map/de_dust2_material_33'
+[2021.01.10-23.20.19:575][776]LogLinker: Can't find file '/Game/map/de_dust2_material_33'
+[2021.01.10-23.20.19:589][776]LogTexture:Display: Building textures: de_dust2_material_33 (AutoDXT, 16X64)
+[2021.01.10-23.20.19:595][776]LogMaterial: Missing cached shader map for material material_33, compiling. 
+[2021.01.10-23.20.19:610][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_10
+[2021.01.10-23.20.19:618][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_10...
+[2021.01.10-23.20.19:618][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:622][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_10.de_dust2_BSP_Object_model_10
+[2021.01.10-23.20.19:632][776]LogLinker: Can't find file '/Game/map/material_32'
+[2021.01.10-23.20.19:632][776]LogLinker: Can't find file '/Game/map/material_32'
+[2021.01.10-23.20.19:635][776]LogLinker: Can't find file '/Game/map/de_dust2_material_32'
+[2021.01.10-23.20.19:635][776]LogLinker: Can't find file '/Game/map/de_dust2_material_32'
+[2021.01.10-23.20.19:651][776]LogTexture:Display: Building textures: de_dust2_material_32 (AutoDXT, 64X64)
+[2021.01.10-23.20.19:661][776]LogMaterial: Missing cached shader map for material material_32, compiling. 
+[2021.01.10-23.20.19:679][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_11
+[2021.01.10-23.20.19:681][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_11...
+[2021.01.10-23.20.19:682][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:685][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_11.de_dust2_BSP_Object_model_11
+[2021.01.10-23.20.19:694][776]LogLinker: Can't find file '/Game/map/material_32_ncl1_1'
+[2021.01.10-23.20.19:694][776]LogLinker: Can't find file '/Game/map/material_32_ncl1_1'
+[2021.01.10-23.20.19:708][776]LogTexture:Display: Building textures: de_dust2_material_32 (AutoDXT, 64X64)
+[2021.01.10-23.20.19:715][776]LogMaterial: Missing cached shader map for material material_32_ncl1_1, compiling. 
+[2021.01.10-23.20.19:731][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_12
+[2021.01.10-23.20.19:734][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_12...
+[2021.01.10-23.20.19:734][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:737][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_12.de_dust2_BSP_Object_model_12
+[2021.01.10-23.20.19:747][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_13
+[2021.01.10-23.20.19:749][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_13...
+[2021.01.10-23.20.19:749][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:753][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_13.de_dust2_BSP_Object_model_13
+[2021.01.10-23.20.19:761][776]LogLinker: Can't find file '/Game/map/material_33_ncl1_1'
+[2021.01.10-23.20.19:761][776]LogLinker: Can't find file '/Game/map/material_33_ncl1_1'
+[2021.01.10-23.20.19:775][776]LogTexture:Display: Building textures: de_dust2_material_33 (AutoDXT, 16X64)
+[2021.01.10-23.20.19:779][776]LogMaterial: Missing cached shader map for material material_33_ncl1_1, compiling. 
+[2021.01.10-23.20.19:796][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_14
+[2021.01.10-23.20.19:800][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_14...
+[2021.01.10-23.20.19:800][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:803][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_14.de_dust2_BSP_Object_model_14
+[2021.01.10-23.20.19:813][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_15
+[2021.01.10-23.20.19:820][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_15...
+[2021.01.10-23.20.19:820][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:823][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_15.de_dust2_BSP_Object_model_15
+[2021.01.10-23.20.19:833][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_17
+[2021.01.10-23.20.19:836][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_17...
+[2021.01.10-23.20.19:836][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:839][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_17.de_dust2_BSP_Object_model_17
+[2021.01.10-23.20.19:850][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_18
+[2021.01.10-23.20.19:852][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_18...
+[2021.01.10-23.20.19:852][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:855][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_18.de_dust2_BSP_Object_model_18
+[2021.01.10-23.20.19:865][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_19
+[2021.01.10-23.20.19:867][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_19...
+[2021.01.10-23.20.19:867][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:871][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_19.de_dust2_BSP_Object_model_19
+[2021.01.10-23.20.19:879][776]LogLinker: Can't find file '/Game/map/material_21_ncl1_2'
+[2021.01.10-23.20.19:879][776]LogLinker: Can't find file '/Game/map/material_21_ncl1_2'
+[2021.01.10-23.20.19:893][776]LogTexture:Display: Building textures: de_dust2_material_21 (AutoDXT, 64X64)
+[2021.01.10-23.20.19:903][776]LogMaterial: Missing cached shader map for material material_21_ncl1_2, compiling. 
+[2021.01.10-23.20.19:919][776]LogLinker: Can't find file '/Game/map/material_31_ncl1_1'
+[2021.01.10-23.20.19:919][776]LogLinker: Can't find file '/Game/map/material_31_ncl1_1'
+[2021.01.10-23.20.19:934][776]LogTexture:Display: Building textures: de_dust2_material_31 (AutoDXT, 64X64)
+[2021.01.10-23.20.19:942][776]LogMaterial: Missing cached shader map for material material_31_ncl1_1, compiling. 
+[2021.01.10-23.20.19:959][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_2
+[2021.01.10-23.20.19:963][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_2...
+[2021.01.10-23.20.19:963][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:966][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_2.de_dust2_BSP_Object_model_2
+[2021.01.10-23.20.19:975][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_20
+[2021.01.10-23.20.19:977][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_20...
+[2021.01.10-23.20.19:977][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:980][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_20.de_dust2_BSP_Object_model_20
+[2021.01.10-23.20.19:990][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_21
+[2021.01.10-23.20.19:993][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_21...
+[2021.01.10-23.20.19:993][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.19:995][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_21.de_dust2_BSP_Object_model_21
+[2021.01.10-23.20.20:006][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_22
+[2021.01.10-23.20.20:009][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_22...
+[2021.01.10-23.20.20:009][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:011][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_22.de_dust2_BSP_Object_model_22
+[2021.01.10-23.20.20:019][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_23
+[2021.01.10-23.20.20:027][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_23...
+[2021.01.10-23.20.20:028][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:031][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_23.de_dust2_BSP_Object_model_23
+[2021.01.10-23.20.20:039][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_24
+[2021.01.10-23.20.20:041][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_24...
+[2021.01.10-23.20.20:042][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:044][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_24.de_dust2_BSP_Object_model_24
+[2021.01.10-23.20.20:053][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_25
+[2021.01.10-23.20.20:054][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_25...
+[2021.01.10-23.20.20:055][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:058][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_25.de_dust2_BSP_Object_model_25
+[2021.01.10-23.20.20:068][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_26
+[2021.01.10-23.20.20:069][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_26...
+[2021.01.10-23.20.20:070][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:072][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_26.de_dust2_BSP_Object_model_26
+[2021.01.10-23.20.20:080][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_27
+[2021.01.10-23.20.20:081][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_27...
+[2021.01.10-23.20.20:082][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:084][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_27.de_dust2_BSP_Object_model_27
+[2021.01.10-23.20.20:092][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_28
+[2021.01.10-23.20.20:095][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_28...
+[2021.01.10-23.20.20:095][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:097][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_28.de_dust2_BSP_Object_model_28
+[2021.01.10-23.20.20:105][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_3
+[2021.01.10-23.20.20:107][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_3...
+[2021.01.10-23.20.20:107][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:113][776]LogStaticMesh: Built static mesh [0.01s] /Game/map/de_dust2_BSP_Object_model_3.de_dust2_BSP_Object_model_3
+[2021.01.10-23.20.20:122][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_31
+[2021.01.10-23.20.20:124][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_31...
+[2021.01.10-23.20.20:124][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:127][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_31.de_dust2_BSP_Object_model_31
+[2021.01.10-23.20.20:157][776]LogLinker: Can't find file '/Game/map/material_1_ncl1_1'
+[2021.01.10-23.20.20:157][776]LogLinker: Can't find file '/Game/map/material_1_ncl1_1'
+[2021.01.10-23.20.20:187][776]LogTexture:Display: Building textures: de_dust2_material_1 (AutoDXT, 128X240)
+[2021.01.10-23.20.20:222][776]LogMaterial: Missing cached shader map for material material_1_ncl1_1, compiling. 
+[2021.01.10-23.20.20:238][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_32
+[2021.01.10-23.20.20:248][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_32...
+[2021.01.10-23.20.20:248][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:251][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_32.de_dust2_BSP_Object_model_32
+[2021.01.10-23.20.20:259][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_33
+[2021.01.10-23.20.20:261][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_33...
+[2021.01.10-23.20.20:261][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:264][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_33.de_dust2_BSP_Object_model_33
+[2021.01.10-23.20.20:274][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_34
+[2021.01.10-23.20.20:276][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_34...
+[2021.01.10-23.20.20:276][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:280][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_34.de_dust2_BSP_Object_model_34
+[2021.01.10-23.20.20:290][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_35
+[2021.01.10-23.20.20:291][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_35...
+[2021.01.10-23.20.20:292][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:295][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_35.de_dust2_BSP_Object_model_35
+[2021.01.10-23.20.20:308][776]LogLinker: Can't find file '/Game/map/material_2_ncl1_1'
+[2021.01.10-23.20.20:309][776]LogLinker: Can't find file '/Game/map/material_2_ncl1_1'
+[2021.01.10-23.20.20:325][776]LogTexture:Display: Building textures: de_dust2_material_2 (AutoDXT, 64X64)
+[2021.01.10-23.20.20:334][776]LogMaterial: Missing cached shader map for material material_2_ncl1_1, compiling. 
+[2021.01.10-23.20.20:350][776]LogLinker: Can't find file '/Game/map/material_9_ncl1_1'
+[2021.01.10-23.20.20:350][776]LogLinker: Can't find file '/Game/map/material_9_ncl1_1'
+[2021.01.10-23.20.20:365][776]LogTexture:Display: Building textures: de_dust2_material_9 (AutoDXT, 64X64)
+[2021.01.10-23.20.20:374][776]LogMaterial: Missing cached shader map for material material_9_ncl1_1, compiling. 
+[2021.01.10-23.20.20:390][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_36
+[2021.01.10-23.20.20:392][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_36...
+[2021.01.10-23.20.20:393][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:395][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_36.de_dust2_BSP_Object_model_36
+[2021.01.10-23.20.20:403][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_37
+[2021.01.10-23.20.20:405][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_37...
+[2021.01.10-23.20.20:405][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:407][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_37.de_dust2_BSP_Object_model_37
+[2021.01.10-23.20.20:415][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_38
+[2021.01.10-23.20.20:417][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_38...
+[2021.01.10-23.20.20:417][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:420][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_38.de_dust2_BSP_Object_model_38
+[2021.01.10-23.20.20:428][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_39
+[2021.01.10-23.20.20:430][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_39...
+[2021.01.10-23.20.20:430][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:433][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_39.de_dust2_BSP_Object_model_39
+[2021.01.10-23.20.20:443][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_4
+[2021.01.10-23.20.20:447][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_4...
+[2021.01.10-23.20.20:447][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:450][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_4.de_dust2_BSP_Object_model_4
+[2021.01.10-23.20.20:462][776]LogLinker: Can't find file '/Game/map/material_31_ncl1_2'
+[2021.01.10-23.20.20:462][776]LogLinker: Can't find file '/Game/map/material_31_ncl1_2'
+[2021.01.10-23.20.20:477][776]LogTexture:Display: Building textures: de_dust2_material_31 (AutoDXT, 64X64)
+[2021.01.10-23.20.20:485][776]LogMaterial: Missing cached shader map for material material_31_ncl1_2, compiling. 
+[2021.01.10-23.20.20:501][776]LogLinker: Can't find file '/Game/map/material_21_ncl1_3'
+[2021.01.10-23.20.20:501][776]LogLinker: Can't find file '/Game/map/material_21_ncl1_3'
+[2021.01.10-23.20.20:515][776]LogTexture:Display: Building textures: de_dust2_material_21 (AutoDXT, 64X64)
+[2021.01.10-23.20.20:523][776]LogMaterial: Missing cached shader map for material material_21_ncl1_3, compiling. 
+[2021.01.10-23.20.20:538][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_40
+[2021.01.10-23.20.20:542][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_40...
+[2021.01.10-23.20.20:542][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:544][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_40.de_dust2_BSP_Object_model_40
+[2021.01.10-23.20.20:554][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_41
+[2021.01.10-23.20.20:556][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_41...
+[2021.01.10-23.20.20:557][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:559][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_41.de_dust2_BSP_Object_model_41
+[2021.01.10-23.20.20:569][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_5
+[2021.01.10-23.20.20:571][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_5...
+[2021.01.10-23.20.20:571][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:574][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_5.de_dust2_BSP_Object_model_5
+[2021.01.10-23.20.20:583][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_6
+[2021.01.10-23.20.20:585][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_6...
+[2021.01.10-23.20.20:585][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:588][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_6.de_dust2_BSP_Object_model_6
+[2021.01.10-23.20.20:597][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_7
+[2021.01.10-23.20.20:599][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_7...
+[2021.01.10-23.20.20:600][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:603][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_7.de_dust2_BSP_Object_model_7
+[2021.01.10-23.20.20:612][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_8
+[2021.01.10-23.20.20:613][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_8...
+[2021.01.10-23.20.20:613][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:617][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_8.de_dust2_BSP_Object_model_8
+[2021.01.10-23.20.20:627][776]LogFbx:Warning: Triangulating static mesh BSP_Object.model_9
+[2021.01.10-23.20.20:628][776]LogStaticMesh: Building static mesh de_dust2_BSP_Object_model_9...
+[2021.01.10-23.20.20:629][776]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2021.01.10-23.20.20:632][776]LogStaticMesh: Built static mesh [0.00s] /Game/map/de_dust2_BSP_Object_model_9.de_dust2_BSP_Object_model_9
+[2021.01.10-23.20.20:665][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_21' was rename 'material_21_ncl1_1' 
+[2021.01.10-23.20.20:666][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_32' was rename 'material_32_ncl1_1' 
+[2021.01.10-23.20.20:666][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_33' was rename 'material_33_ncl1_1' 
+[2021.01.10-23.20.20:666][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_21' was rename 'material_21_ncl1_2' 
+[2021.01.10-23.20.20:666][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_31' was rename 'material_31_ncl1_1' 
+[2021.01.10-23.20.20:667][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_1' was rename 'material_1_ncl1_1' 
+[2021.01.10-23.20.20:667][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_2' was rename 'material_2_ncl1_1' 
+[2021.01.10-23.20.20:667][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_9' was rename 'material_9_ncl1_1' 
+[2021.01.10-23.20.20:667][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_31' was rename 'material_31_ncl1_2' 
+[2021.01.10-23.20.20:667][776]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'material_21' was rename 'material_21_ncl1_3' 
+[2021.01.10-23.20.20:668][776]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.10-23.20.20:668][776]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2021.01.10-23.20.20:668][776]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2021.01.10-23.20.20:669][776]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2021.01.10-23.20.20:669][776]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2021.01.10-23.20.20:669][776]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2021.01.10-23.20.20:669][776]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2021.01.10-23.20.20:669][776]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2021.01.10-23.20.20:669][776]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2021.01.10-23.20.20:670][776]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2021.01.10-23.20.20:670][776]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2021.01.10-23.20.42:593][835]LogActorFactory: Actor Factory created de_dust2_BSP_Object_model_0
+[2021.01.10-23.20.47:321][401]LogActorFactory: Actor Factory created de_dust2_BSP_Object_model_0
+[2021.01.10-23.20.51:483][876]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.10-23.20.51:505][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.10-23.20.51:505][876]PIE: New page: PIE session: Level2 (Jan 11, 2021, 1:20:51 AM)
+[2021.01.10-23.20.51:505][876]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.10-23.20.51:520][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014848s)
+[2021.01.10-23.20.51:521][876]LogAIModule: Creating AISystem for world Level2
+[2021.01.10-23.20.51:521][876]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2021.01.10-23.20.51:521][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.016127s)
+[2021.01.10-23.20.51:544][876]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.10-23.20.51:555][876]LogInit: FAudioDevice initialized.
+[2021.01.10-23.20.51:588][876]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.10-23.20.51:593][876]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.11-00.20.51
+[2021.01.10-23.20.51:593][876]LogWorld: Bringing up level for play took: 0.004555
+[2021.01.10-23.20.51:595][876]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.439
+[2021.01.10-23.21.14:504][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (de_dust2_BSP_Object_model_0)
+[2021.01.10-23.21.44:942][211]LogEditorViewport: Clicking on Actor (LMB): Shape_Cube_DM_Blueprint_C (Shape_Cube_DM_Blueprint7)
+[2021.01.10-23.21.45:570][283]LogEditorViewport: Clicking on Actor (CTRL LMB): Shape_Cube_DM_Blueprint_C (Shape_Cube_DM_Blueprint4)
+[2021.01.10-23.21.46:177][353]LogEditorViewport: Clicking on Actor (CTRL LMB): Shape_Cube_DM_Blueprint_C (Shape_Cube_DM_Blueprint5)
+[2021.01.10-23.21.47:259][480]LogEditorViewport: Clicking on Actor (CTRL LMB): Shape_Cube_DM_Blueprint_C (Shape_Cube_DM_Blueprint3)
+[2021.01.10-23.21.47:700][530]LogEditorViewport: Clicking on Actor (CTRL LMB): Shape_Cube_DM_Blueprint_C (Shape_Cube_DM_Blueprint8)
+[2021.01.10-23.21.48:475][620]LogEditorViewport: Clicking on Actor (CTRL LMB): Shape_Cube_DM_Blueprint_C (Shape_Cube_DM_Blueprint2)
+[2021.01.10-23.21.49:525][743]Cmd: DELETE
+[2021.01.10-23.21.49:525][743]Cmd: ACTOR DELETE
+[2021.01.10-23.21.49:568][743]LogEditorActor: Deleted Actor: Shape_Cube_DM_Blueprint_C
+[2021.01.10-23.21.49:568][743]LogEditorActor: Deleted Actor: Shape_Cube_DM_Blueprint_C
+[2021.01.10-23.21.49:568][743]LogEditorActor: Deleted Actor: Shape_Cube_DM_Blueprint_C
+[2021.01.10-23.21.49:569][743]LogEditorActor: Deleted Actor: Shape_Cube_DM_Blueprint_C
+[2021.01.10-23.21.49:569][743]LogEditorActor: Deleted Actor: Shape_Cube_DM_Blueprint_C
+[2021.01.10-23.21.49:569][743]LogEditorActor: Deleted Actor: Shape_Cube_DM_Blueprint_C
+[2021.01.10-23.21.49:588][743]LogEditorActor: Deleted 6 Actors (0.021 secs)
+[2021.01.10-23.21.50:924][903]LogEditorViewport: Clicking on Actor (LMB): Shape_Cube_DM_Blueprint_C (Shape_Cube_DM_Blueprint)
+[2021.01.10-23.22.06:822][802]LogEditorViewport: Clicking on Actor (LMB): Shape_Cube_DM_Blueprint_C (Shape_Cube_DM_Blueprint6)
+[2021.01.10-23.22.26:867][190]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.10-23.22.26:889][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.10-23.22.26:889][190]PIE: New page: PIE session: Level2 (Jan 11, 2021, 1:22:26 AM)
+[2021.01.10-23.22.26:889][190]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.10-23.22.26:904][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015225s)
+[2021.01.10-23.22.26:905][190]LogAIModule: Creating AISystem for world Level2
+[2021.01.10-23.22.26:905][190]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2021.01.10-23.22.26:906][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.016480s)
+[2021.01.10-23.22.26:920][190]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.10-23.22.26:931][190]LogInit: FAudioDevice initialized.
+[2021.01.10-23.22.26:959][190]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.10-23.22.26:964][190]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.11-00.22.26
+[2021.01.10-23.22.26:964][190]LogWorld: Bringing up level for play took: 0.003662
+[2021.01.10-23.22.26:966][190]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.189
+[2021.01.10-23.22.39:977][737]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.01.10-23.22.41:898][965]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.01.10-23.22.42:850][ 77]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.10-23.22.42:873][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.10-23.22.42:873][ 77]PIE: New page: PIE session: Level2 (Jan 11, 2021, 1:22:42 AM)
+[2021.01.10-23.22.42:873][ 77]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.10-23.22.42:889][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015268s)
+[2021.01.10-23.22.42:889][ 77]LogAIModule: Creating AISystem for world Level2
+[2021.01.10-23.22.42:890][ 77]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2021.01.10-23.22.42:890][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.016481s)
+[2021.01.10-23.22.42:905][ 77]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.10-23.22.42:916][ 77]LogInit: FAudioDevice initialized.
+[2021.01.10-23.22.42:945][ 77]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.10-23.22.42:949][ 77]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.11-00.22.42
+[2021.01.10-23.22.42:950][ 77]LogWorld: Bringing up level for play took: 0.003645
+[2021.01.10-23.22.42:952][ 77]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.204
+[2021.01.10-23.23.10:404][357]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.01.10-23.23.13:031][671]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.01.10-23.23.13:855][768]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2021.01.10-23.23.14:798][879]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.01.10-23.23.20:326][538]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.01.10-23.23.21:437][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.10-23.23.21:629][669]LogSavePackage: Save=171.21ms
+[2021.01.10-23.23.21:629][669]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Level225C9D4A248046DABEAFDF797DFF3E04F.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap'
+[2021.01.10-23.23.21:635][669]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap
+[2021.01.10-23.23.21:668][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2021.01.10-23.23.21:831][669]LogSavePackage: Save=149.13ms
+[2021.01.10-23.23.21:832][669]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Level2_BuiltData10F54BF24C99466D48117DBDB7799B4A.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset'
+[2021.01.10-23.23.21:833][669]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset
+[2021.01.10-23.23.23:805][903]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.10-23.23.23:826][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.10-23.23.23:827][903]PIE: New page: PIE session: Level2 (Jan 11, 2021, 1:23:23 AM)
+[2021.01.10-23.23.23:827][903]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.10-23.23.23:842][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015280s)
+[2021.01.10-23.23.23:843][903]LogAIModule: Creating AISystem for world Level2
+[2021.01.10-23.23.23:843][903]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2021.01.10-23.23.23:843][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.016353s)
+[2021.01.10-23.23.23:858][903]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.10-23.23.23:869][903]LogInit: FAudioDevice initialized.
+[2021.01.10-23.23.23:901][903]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.10-23.23.23:905][903]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.11-00.23.23
+[2021.01.10-23.23.23:905][903]LogWorld: Bringing up level for play took: 0.003680
+[2021.01.10-23.23.23:908][903]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.752
+[2021.01.10-23.23.36:129][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (de_dust2_BSP_Object_model_0)
+[2021.01.10-23.23.38:485][630]Cmd: DELETE
+[2021.01.10-23.23.38:485][630]Cmd: ACTOR DELETE
+[2021.01.10-23.23.38:486][630]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.10-23.23.38:495][630]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2021.01.10-23.24.03:352][593]LogMaterial: Missing cached shader map for material material_21_ncl1_3, compiling. 
+[2021.01.10-23.24.03:352][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_21_ncl1_3.material_21_ncl1_3 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:352][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:354][593]LogMaterial: Missing cached shader map for material material_31_ncl1_2, compiling. 
+[2021.01.10-23.24.03:355][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_31_ncl1_2.material_31_ncl1_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:355][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:364][593]LogMaterial: Missing cached shader map for material material_9_ncl1_1, compiling. 
+[2021.01.10-23.24.03:364][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_9_ncl1_1.material_9_ncl1_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:364][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:366][593]LogMaterial: Missing cached shader map for material material_2_ncl1_1, compiling. 
+[2021.01.10-23.24.03:366][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_2_ncl1_1.material_2_ncl1_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:366][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:372][593]LogMaterial: Missing cached shader map for material material_1_ncl1_1, compiling. 
+[2021.01.10-23.24.03:373][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_1_ncl1_1.material_1_ncl1_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:373][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:386][593]LogMaterial: Missing cached shader map for material material_31_ncl1_1, compiling. 
+[2021.01.10-23.24.03:386][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_31_ncl1_1.material_31_ncl1_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:386][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:388][593]LogMaterial: Missing cached shader map for material material_21_ncl1_2, compiling. 
+[2021.01.10-23.24.03:389][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_21_ncl1_2.material_21_ncl1_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:389][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:395][593]LogMaterial: Missing cached shader map for material material_33_ncl1_1, compiling. 
+[2021.01.10-23.24.03:396][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_33_ncl1_1.material_33_ncl1_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:396][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:399][593]LogMaterial: Missing cached shader map for material material_32_ncl1_1, compiling. 
+[2021.01.10-23.24.03:400][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_32_ncl1_1.material_32_ncl1_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:400][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:403][593]LogMaterial: Missing cached shader map for material material_32, compiling. 
+[2021.01.10-23.24.03:403][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_32.material_32 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:403][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:406][593]LogMaterial: Missing cached shader map for material material_33, compiling. 
+[2021.01.10-23.24.03:406][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_33.material_33 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:406][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:409][593]LogMaterial: Missing cached shader map for material material_21_ncl1_1, compiling. 
+[2021.01.10-23.24.03:409][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_21_ncl1_1.material_21_ncl1_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:409][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:411][593]LogMaterial: Missing cached shader map for material material_31, compiling. 
+[2021.01.10-23.24.03:411][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_31.material_31 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:411][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:415][593]LogMaterial: Missing cached shader map for material material_30, compiling. 
+[2021.01.10-23.24.03:416][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_30.material_30 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:416][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:418][593]LogMaterial: Missing cached shader map for material material_29, compiling. 
+[2021.01.10-23.24.03:418][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_29.material_29 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:418][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:420][593]LogMaterial: Missing cached shader map for material material_28, compiling. 
+[2021.01.10-23.24.03:421][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_28.material_28 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:421][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:423][593]LogMaterial: Missing cached shader map for material material_27, compiling. 
+[2021.01.10-23.24.03:423][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_27.material_27 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:423][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:425][593]LogMaterial: Missing cached shader map for material material_26, compiling. 
+[2021.01.10-23.24.03:425][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_26.material_26 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:426][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:427][593]LogMaterial: Missing cached shader map for material material_25, compiling. 
+[2021.01.10-23.24.03:428][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_25.material_25 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:428][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:430][593]LogMaterial: Missing cached shader map for material material_24, compiling. 
+[2021.01.10-23.24.03:430][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_24.material_24 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:430][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:432][593]LogMaterial: Missing cached shader map for material material_23, compiling. 
+[2021.01.10-23.24.03:433][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_23.material_23 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:433][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:435][593]LogMaterial: Missing cached shader map for material material_22, compiling. 
+[2021.01.10-23.24.03:435][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_22.material_22 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:435][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:437][593]LogMaterial: Missing cached shader map for material material_21, compiling. 
+[2021.01.10-23.24.03:437][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_21.material_21 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:437][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:439][593]LogMaterial: Missing cached shader map for material material_20, compiling. 
+[2021.01.10-23.24.03:439][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_20.material_20 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:440][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:442][593]LogMaterial: Missing cached shader map for material material_19, compiling. 
+[2021.01.10-23.24.03:442][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_19.material_19 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:442][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:444][593]LogMaterial: Missing cached shader map for material material_18, compiling. 
+[2021.01.10-23.24.03:444][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_18.material_18 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:444][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:446][593]LogMaterial: Missing cached shader map for material material_17, compiling. 
+[2021.01.10-23.24.03:446][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_17.material_17 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:447][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:448][593]LogMaterial: Missing cached shader map for material material_16, compiling. 
+[2021.01.10-23.24.03:449][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_16.material_16 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:449][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:450][593]LogMaterial: Missing cached shader map for material material_15, compiling. 
+[2021.01.10-23.24.03:451][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_15.material_15 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:451][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:452][593]LogMaterial: Missing cached shader map for material material_14, compiling. 
+[2021.01.10-23.24.03:453][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_14.material_14 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:453][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:454][593]LogMaterial: Missing cached shader map for material material_13, compiling. 
+[2021.01.10-23.24.03:454][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_13.material_13 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:454][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:456][593]LogMaterial: Missing cached shader map for material material_12, compiling. 
+[2021.01.10-23.24.03:456][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_12.material_12 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:457][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:458][593]LogMaterial: Missing cached shader map for material material_11, compiling. 
+[2021.01.10-23.24.03:458][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_11.material_11 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:458][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:460][593]LogMaterial: Missing cached shader map for material material_10, compiling. 
+[2021.01.10-23.24.03:461][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_10.material_10 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:461][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:462][593]LogMaterial: Missing cached shader map for material material_9, compiling. 
+[2021.01.10-23.24.03:463][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_9.material_9 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:463][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:464][593]LogMaterial: Missing cached shader map for material material_8, compiling. 
+[2021.01.10-23.24.03:464][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_8.material_8 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:464][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:466][593]LogMaterial: Missing cached shader map for material material_7, compiling. 
+[2021.01.10-23.24.03:466][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_7.material_7 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:466][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:467][593]LogMaterial: Missing cached shader map for material material_6, compiling. 
+[2021.01.10-23.24.03:468][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_6.material_6 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:468][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:469][593]LogMaterial: Missing cached shader map for material material_5, compiling. 
+[2021.01.10-23.24.03:469][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_5.material_5 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:470][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:471][593]LogMaterial: Missing cached shader map for material material_4, compiling. 
+[2021.01.10-23.24.03:471][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_4.material_4 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:471][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:473][593]LogMaterial: Missing cached shader map for material material_3, compiling. 
+[2021.01.10-23.24.03:473][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_3.material_3 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:473][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:474][593]LogMaterial: Missing cached shader map for material material_2, compiling. 
+[2021.01.10-23.24.03:475][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_2.material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:475][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:476][593]LogMaterial: Missing cached shader map for material material_1, compiling. 
+[2021.01.10-23.24.03:476][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_1.material_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:477][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.03:478][593]LogMaterial: Missing cached shader map for material material_0, compiling. 
+[2021.01.10-23.24.03:478][593]LogMaterial:Warning: Failed to compile Material /Game/map/material_0.material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.10-23.24.03:478][593]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.01.10-23.24.37:619][397]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2021.01.10-23.24.42:049][907]LogEditorSelectUtils:Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape2)
+[2021.01.10-23.24.42:049][907]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Level2.Level2:PersistentLevel.Landscape2_4.RootComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.01.10-23.24.42:049][907]LogEditorSelectUtils:Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape2)
+[2021.01.10-23.24.45:094][268]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.01.10-23.24.49:357][777]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.10-23.24.49:380][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.10-23.24.49:380][777]PIE: New page: PIE session: Level2 (Jan 11, 2021, 1:24:49 AM)
+[2021.01.10-23.24.49:381][777]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.10-23.24.49:395][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014318s)
+[2021.01.10-23.24.49:396][777]LogAIModule: Creating AISystem for world Level2
+[2021.01.10-23.24.49:396][777]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2021.01.10-23.24.49:396][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.015328s)
+[2021.01.10-23.24.49:411][777]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.10-23.24.49:422][777]LogInit: FAudioDevice initialized.
+[2021.01.10-23.24.49:451][777]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.10-23.24.49:455][777]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.11-00.24.49
+[2021.01.10-23.24.49:455][777]LogWorld: Bringing up level for play took: 0.003688
+[2021.01.10-23.24.49:458][777]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.301
+[2021.01.10-23.25.07:491][913]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.10-23.25.07:513][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.10-23.25.07:513][913]PIE: New page: PIE session: Level2 (Jan 11, 2021, 1:25:07 AM)
+[2021.01.10-23.25.07:514][913]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.10-23.25.07:528][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014204s)
+[2021.01.10-23.25.07:528][913]LogAIModule: Creating AISystem for world Level2
+[2021.01.10-23.25.07:529][913]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2021.01.10-23.25.07:529][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.015427s)
+[2021.01.10-23.25.07:543][913]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.10-23.25.07:554][913]LogInit: FAudioDevice initialized.
+[2021.01.10-23.25.07:583][913]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.10-23.25.07:586][913]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.11-00.25.07
+[2021.01.10-23.25.07:587][913]LogWorld: Bringing up level for play took: 0.002824
+[2021.01.10-23.25.07:589][913]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.432
+[2021.01.10-23.25.35:809][243]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.01.10-23.25.46:327][500]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.01.10-23.25.47:509][641]Cmd: TRANSACTION UNDO
+[2021.01.10-23.25.47:509][641]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.10-23.25.48:720][778]Cmd: TRANSACTION UNDO
+[2021.01.10-23.25.48:720][778]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.10-23.25.49:205][834]Cmd: TRANSACTION UNDO
+[2021.01.10-23.25.49:205][834]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.10-23.25.49:649][884]Cmd: TRANSACTION UNDO
+[2021.01.10-23.25.49:649][884]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.10-23.25.50:084][934]Cmd: TRANSACTION UNDO
+[2021.01.10-23.25.50:084][934]LogEditorTransaction: Undo Edit Actor Hidden In Game
+[2021.01.10-23.25.52:437][201]Cmd: TRANSACTION UNDO
+[2021.01.10-23.25.52:437][201]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.10-23.25.52:853][248]Cmd: TRANSACTION UNDO
+[2021.01.10-23.25.52:853][248]LogEditorTransaction: Undo Set Actor Visibility
+[2021.01.10-23.25.53:751][343]Cmd: TRANSACTION UNDO
+[2021.01.10-23.25.53:751][343]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.10-23.25.54:402][418]Cmd: TRANSACTION UNDO
+[2021.01.10-23.25.54:403][418]LogEditorTransaction: Undo Create Actors
+[2021.01.10-23.25.54:933][478]Cmd: TRANSACTION UNDO
+[2021.01.10-23.25.54:933][478]LogEditorTransaction: Undo Clicking on Actors
+[2021.01.10-23.26.12:514][581]LogEditorActor: Deleted Actor: LandscapeGizmoActiveActor
+[2021.01.10-23.26.12:525][581]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2021.01.10-23.26.25:291][105]LogTexture:Display: Building textures: Texture2D_3 (G8, 128X128)
+[2021.01.10-23.26.35:134][274]LogEditorSelectUtils:Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape2)
+[2021.01.10-23.26.35:135][274]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Level2.Level2:PersistentLevel.Landscape2_13.RootComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2021.01.10-23.26.35:135][274]LogEditorSelectUtils:Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape2)
+[2021.01.10-23.26.58:519][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.10-23.26.58:724][ 70]LogSavePackage: Save=189.70ms
+[2021.01.10-23.26.58:724][ 70]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Level21A204B8644E3E7F353B3C09D53390769.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap'
+[2021.01.10-23.26.58:727][ 70]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap
+[2021.01.10-23.26.58:762][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2021.01.10-23.26.58:917][ 70]LogSavePackage: Save=149.23ms
+[2021.01.10-23.26.58:917][ 70]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Level2_BuiltData556889714835938369D259BA97C793FF.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset'
+[2021.01.10-23.26.58:919][ 70]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset
+[2021.01.10-23.27.02:663][462]LogMaterial: Missing cached shader map for material band, compiling. 
+[2021.01.10-23.27.27:440][353]Cmd: TRANSACTION UNDO
+[2021.01.10-23.27.27:440][353]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2021.01.10-23.27.54:818][507]LogEditorActor: Deleted Actor: LandscapeGizmoActiveActor
+[2021.01.10-23.27.54:847][507]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2021.01.10-23.28.42:724][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.10-23.28.42:764][594]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2021.01.10-23.28.42:908][594]LogSavePackage: Save=162.92ms
+[2021.01.10-23.28.42:908][594]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Level2732E29764D3350F607ED7E98D829228E.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap'
+[2021.01.10-23.28.42:911][594]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap
+[2021.01.10-23.28.42:945][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2021.01.10-23.28.43:108][594]LogSavePackage: Save=148.09ms
+[2021.01.10-23.28.43:108][594]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Level2_BuiltDataACC319704E20E955DC851E953C462C93.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset'
+[2021.01.10-23.28.43:111][594]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset
+[2021.01.10-23.28.45:212][816]MapCheck: New page: Map Check
+[2021.01.10-23.28.45:231][816]Cmd: MAP REBUILD ALLVISIBLE
+[2021.01.10-23.28.45:231][816]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.01.10-23.28.45:561][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2021.01.10-23.28.45:573][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy trunk, compiling. 
+[2021.01.10-23.28.45:577][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy leaves, compiling. 
+[2021.01.10-23.28.45:579][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2021.01.10-23.28.45:583][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FlattenHeightMat, compiling. 
+[2021.01.10-23.28.45:587][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LaserAzul, compiling. 
+[2021.01.10-23.28.45:590][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy chest_text_Mat, compiling. 
+[2021.01.10-23.28.45:595][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Vamp_Mat, compiling. 
+[2021.01.10-23.28.45:599][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy eimerboden, compiling. 
+[2021.01.10-23.28.45:603][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Textura_Gun_Barrel_Mat, compiling. 
+[2021.01.10-23.28.45:607][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy landmine_mat, compiling. 
+[2021.01.10-23.28.45:612][816]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Vamp_alpha_Mat, compiling. 
+[2021.01.10-23.28.46:185][816]TextureStreamingBuild:Display: Compiling optional shaders took 0.627 seconds.
+[2021.01.10-23.28.46:204][816]LogLevel:Display: Export Material TexCoord Scales took 0.019 seconds.
+[2021.01.10-23.28.46:217][816]TextureStreamingBuild:Display: Build Texture Streaming took 0.013 seconds.
+[2021.01.10-23.28.46:238][816]LightingResults: New page: Lighting Build - Jan 11, 2021, 1:28:46 AM
+[2021.01.10-23.28.46:353][816]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.01.10-23.28.46:517][816]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.01.10-23.28.46:525][816]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.01.10-23.28.48:059][816]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.01.10-23.28.48:059][816]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16056
+[2021.01.10-23.28.54:464][816]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2021.01.10-23.28.54:464][816]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.01.10-23.28.54:464][816]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.01.10-23.28.54:464][816]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.01.10-23.28.54:465][816]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.01.10-23.28.54:465][816]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.01.10-23.28.54:668][816]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.01.10-23.28.54:668][816]MapCheck: New page: Level2 - Jan 11, 2021, 1:28:54 AM
+[2021.01.10-23.28.54:672][816]MapCheck:Warning: Performance Warning Landscape_0 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2021.01.10-23.28.54:673][816]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2021.01.10-23.28.54:749][816]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 80.796ms to complete.
+[2021.01.10-23.28.54:772][816]LogEditorBuildUtils: Build time 0:09
+[2021.01.10-23.28.55:606][839]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer eimerboden, compiling. 
+[2021.01.10-23.28.55:610][839]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer eimerboden, compiling. 
+[2021.01.10-23.30.01:421][112]LogStaticLightingSystem:Warning: Failed to build lighting!!! Lighting build canceled.
+[2021.01.10-23.30.01:495][112]Job has failed! Job is closed while Tasks are still PENDING
+[2021.01.10-23.30.01:496][112]DumpUnbuiltLightIteractions
+[2021.01.10-23.30.01:496][112]Lights with unbuilt interactions: 1
+[2021.01.10-23.30.01:496][112]    Light PointLight_1
+[2021.01.10-23.30.01:496][112]
+[2021.01.10-23.30.01:496][112]Primitives with unbuilt interactions: 5
+[2021.01.10-23.30.01:496][112]    Primitive FoliageInstancedStaticMeshComponent /Game/Levels/Level2.Level2:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_1
+[2021.01.10-23.30.01:496][112]    Primitive LandscapeComponent /Game/Levels/Level2.Level2:PersistentLevel.Landscape_0.LandscapeComponent_9
+[2021.01.10-23.30.01:496][112]    Primitive LandscapeComponent /Game/Levels/Level2.Level2:PersistentLevel.Landscape_0.LandscapeComponent_18
+[2021.01.10-23.30.01:496][112]    Primitive LandscapeComponent /Game/Levels/Level2.Level2:PersistentLevel.Landscape_0.LandscapeComponent_17
+[2021.01.10-23.30.01:496][112]    Primitive LandscapeComponent /Game/Levels/Level2.Level2:PersistentLevel.Landscape_0.LandscapeComponent_10
+[2021.01.10-23.30.01:507][113]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.01.10-23.30.01:507][113]MapCheck: New page: Level2 - Jan 11, 2021, 1:30:01 AM
+[2021.01.10-23.30.01:520][113]MapCheck:Warning: Performance Warning Landscape_0 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2021.01.10-23.30.01:520][113]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2021.01.10-23.30.01:597][113]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 89.509ms to complete.
+[2021.01.10-23.30.13:573][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.10-23.30.13:608][230]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2021.01.10-23.30.13:745][230]LogSavePackage: Save=156.17ms
+[2021.01.10-23.30.13:745][230]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Level226568A954F32CB74341454BB69CD1C4F.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap'
+[2021.01.10-23.30.13:748][230]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2.umap
+[2021.01.10-23.30.13:782][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2021.01.10-23.30.13:938][230]LogSavePackage: Save=149.72ms
+[2021.01.10-23.30.13:938][230]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Level2_BuiltData2FA11EC1458A0B3AA6F6D48CCF4205D6.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset'
+[2021.01.10-23.30.13:940][230]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Levels/Level2_BuiltData.uasset
+[2021.01.10-23.30.17:013][521]MapCheck: New page: Map Check
+[2021.01.10-23.30.17:025][521]LightingResults: New page: Lighting Build - Jan 11, 2021, 1:30:17 AM
+[2021.01.10-23.30.17:060][521]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.01.10-23.30.17:063][521]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.01.10-23.30.17:063][521]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.01.10-23.30.17:064][521]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.01.10-23.30.17:064][521]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16056
+[2021.01.10-23.30.21:646][521]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2021.01.10-23.30.21:647][521]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.01.10-23.30.21:647][521]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.01.10-23.30.21:647][521]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.01.10-23.30.21:647][521]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.01.10-23.30.21:647][521]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.01.10-23.30.21:747][521]LogEditorBuildUtils: Build time 0:04
+[2021.01.10-23.31.13:585][172]LogHttp:Warning: 000002D899BCA980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.10-23.31.13:585][172]LogHttp:Warning: 000002D899BCA980: libcurl info message cache 0 (Connection 15 seems to be dead!)
+[2021.01.10-23.31.13:585][172]LogHttp:Warning: 000002D899BCA980: libcurl info message cache 1 (Closing connection 15)
+[2021.01.10-23.31.13:585][172]LogHttp:Warning: 000002D899BCA980: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.01.10-23.31.13:585][172]LogHttp:Warning: 000002D899BCA980: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.10-23.31.13:585][172]LogHttp:Warning: 000002D899BCA980: libcurl info message cache 4 (Closing connection 16)
+[2021.01.10-23.32.24:806][651]LogHttp:Warning: 000002D899BC8580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.10-23.32.24:806][651]LogHttp:Warning: 000002D899BC8580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.10-23.32.24:806][651]LogHttp:Warning: 000002D899BC8580: libcurl info message cache 1 (Closing connection 17)
+[2021.01.10-23.34.35:728][707]LightingResults:Warning: Warning Tree_FBX Object has wrapping UVs.
+[2021.01.10-23.34.35:728][707]LightingResults:Warning: Warning Tree_FBX Object has overlapping UVs.
+[2021.01.10-23.34.35:728][707]LightingResults: Info Tree_FBX Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.10-23.34.35:728][707]LightingResults:Warning: Warning Tree_FBX Object has wrapping UVs.
+[2021.01.10-23.34.35:728][707]LightingResults:Warning: Warning Tree_FBX Object has overlapping UVs.
+[2021.01.10-23.34.35:728][707]LightingResults: Info Tree_FBX Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.10-23.34.36:058][708]LightingResults:Warning: Warning Tree_FBX Object has wrapping UVs.
+[2021.01.10-23.34.36:058][708]LightingResults:Warning: Warning Tree_FBX Object has overlapping UVs.
+[2021.01.10-23.34.36:058][708]LightingResults: Info Tree_FBX Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.10-23.34.36:058][708]LightingResults:Warning: Warning Tree_FBX Object has wrapping UVs.
+[2021.01.10-23.34.36:058][708]LightingResults:Warning: Warning Tree_FBX Object has overlapping UVs.
+[2021.01.10-23.34.36:058][708]LightingResults: Info Tree_FBX Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.10-23.34.36:387][709]LightingResults:Warning: Warning Tree_FBX Object has wrapping UVs.
+[2021.01.10-23.34.36:387][709]LightingResults:Warning: Warning Tree_FBX Object has overlapping UVs.
+[2021.01.10-23.34.36:387][709]LightingResults: Info Tree_FBX Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.10-23.34.36:387][709]LightingResults:Warning: Warning Tree_FBX Object has wrapping UVs.
+[2021.01.10-23.34.36:387][709]LightingResults:Warning: Warning Tree_FBX Object has overlapping UVs.
+[2021.01.10-23.34.36:387][709]LightingResults: Info Tree_FBX Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.10-23.34.36:720][710]LightingResults:Warning: Warning Tree_FBX Object has wrapping UVs.
+[2021.01.10-23.34.36:720][710]LightingResults:Warning: Warning Tree_FBX Object has overlapping UVs.
+[2021.01.10-23.34.36:720][710]LightingResults: Info Tree_FBX Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.10-23.34.37:062][711]LightingResults:Warning: Warning Tree_FBX Object has wrapping UVs.
+[2021.01.10-23.34.37:062][711]LightingResults:Warning: Warning Tree_FBX Object has overlapping UVs.
+[2021.01.10-23.34.37:062][711]LightingResults: Info Tree_FBX Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.10-23.34.37:062][711]LightingResults:Warning: Warning Tree_FBX Object has wrapping UVs.
+[2021.01.10-23.34.37:062][711]LightingResults:Warning: Warning Tree_FBX Object has overlapping UVs.
+[2021.01.10-23.34.37:062][711]LightingResults: Info Tree_FBX Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.10-23.34.38:723][716]LightingResults:Warning: Warning Tree_FBX Object has wrapping UVs.
+[2021.01.10-23.34.38:723][716]LightingResults:Warning: Warning Tree_FBX Object has overlapping UVs.
+[2021.01.10-23.34.38:723][716]LightingResults: Info Tree_FBX Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.01.10-23.36.18:551][931]Job has failed! The task failure count is non-zero
+[2021.01.10-23.36.18:552][931]LogStaticLightingSystem:Warning: Failed to build lighting!!! Lighting build failed.
+[2021.01.10-23.36.18:786][931]DumpUnbuiltLightIteractions
+[2021.01.10-23.36.18:787][931]Lights with unbuilt interactions: 1
+[2021.01.10-23.36.18:787][931]    Light PointLight_1
+[2021.01.10-23.36.18:787][931]
+[2021.01.10-23.36.18:787][931]Primitives with unbuilt interactions: 5
+[2021.01.10-23.36.18:787][931]    Primitive LandscapeComponent /Game/Levels/Level2.Level2:PersistentLevel.Landscape_0.LandscapeComponent_17
+[2021.01.10-23.36.18:787][931]    Primitive LandscapeComponent /Game/Levels/Level2.Level2:PersistentLevel.Landscape_0.LandscapeComponent_9
+[2021.01.10-23.36.18:787][931]    Primitive LandscapeComponent /Game/Levels/Level2.Level2:PersistentLevel.Landscape_0.LandscapeComponent_10
+[2021.01.10-23.36.18:787][931]    Primitive LandscapeComponent /Game/Levels/Level2.Level2:PersistentLevel.Landscape_0.LandscapeComponent_18
+[2021.01.10-23.36.18:787][931]    Primitive FoliageInstancedStaticMeshComponent /Game/Levels/Level2.Level2:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_1
+[2021.01.10-23.36.18:788][932]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.01.10-23.36.18:788][932]MapCheck: New page: Level2 - Jan 11, 2021, 1:36:18 AM
+[2021.01.10-23.36.18:861][932]MapCheck:Warning: Performance Warning Landscape_0 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2021.01.10-23.36.18:861][932]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2021.01.10-23.36.18:957][932]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 168.923ms to complete.
+[2021.01.10-23.36.49:791][976]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.10-23.36.49:820][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.10-23.36.49:820][976]PIE: New page: PIE session: Level2 (Jan 11, 2021, 1:36:49 AM)
+[2021.01.10-23.36.49:820][976]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2021.01.10-23.36.49:836][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015572s)
+[2021.01.10-23.36.49:837][976]LogAIModule: Creating AISystem for world Level2
+[2021.01.10-23.36.49:837][976]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2021.01.10-23.36.49:837][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.016898s)
+[2021.01.10-23.36.49:857][976]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.10-23.36.49:871][976]LogInit: FAudioDevice initialized.
+[2021.01.10-23.36.49:901][976]LogLoad: Game class is 'ModoSupervivencia_C'
+[2021.01.10-23.36.49:906][976]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2021.01.11-00.36.49
+[2021.01.10-23.36.49:907][976]LogWorld: Bringing up level for play took: 0.004609
+[2021.01.10-23.36.49:910][976]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.754
+[2021.01.10-23.37.01:727][356]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2021.01.10-23.37.07:701][ 65]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2021.01.10-23.37.34:882][896]Cmd: QUIT_EDITOR
+[2021.01.10-23.37.35:568][896]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2021.01.10-23.37.35:578][896]LogExit: Preparing to exit.
+[2021.01.10-23.37.36:387][896]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/' was aborted.
+[2021.01.10-23.37.36:419][896]LogExit: Editor shut down
+[2021.01.10-23.37.36:422][896]LogExit: Transaction tracking system shut down
+[2021.01.10-23.37.36:563][896]LogObj: Freed 0b from 0 cluster array pools.
+[2021.01.10-23.37.36:563][896]LogExit: Object subsystem successfully closed.
+[2021.01.10-23.37.36:591][896]LogD3D11RHI: Shutdown
+[2021.01.10-23.37.36:591][896]LogD3D11RHI: CleanupD3DDevice
+[2021.01.10-23.37.36:695][896]LogD3D11RHI: ~FD3D11DynamicRHI
+[2021.01.10-23.37.36:703][896]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2021.01.10-23.37.36:703][896]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (536)
+[2021.01.10-23.37.36:703][896]LogModuleManager: Shutting down and abandoning module SkeletonEditor (534)
+[2021.01.10-23.37.36:703][896]LogModuleManager: Shutting down and abandoning module AnimationEditor (532)
+[2021.01.10-23.37.36:703][896]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2021.01.10-23.37.36:703][896]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2021.01.10-23.37.36:703][896]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2021.01.10-23.37.36:703][896]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2021.01.10-23.37.36:703][896]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2021.01.10-23.37.36:703][896]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2021.01.10-23.37.36:703][896]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2021.01.10-23.37.36:703][896]LogDirectoryWatcher: A directory notification for 'D:/PROGRAMAS/UNREAL/UE_4.16/FeaturePacks/' was aborted.
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2021.01.10-23.37.36:704][896]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Collections/' was aborted.
+[2021.01.10-23.37.36:704][896]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/Developers/Sofía/Collections/' was aborted.
+[2021.01.10-23.37.36:704][896]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Saved/Collections/' was aborted.
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2021.01.10-23.37.36:704][896]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module Media (471)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2021.01.10-23.37.36:705][896]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2021.01.10-23.37.36:856][896]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2021.01.10-23.37.36:857][896]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2021.01.10-23.37.36:857][896]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2021.01.10-23.37.36:857][896]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2021.01.10-23.37.36:857][896]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2021.01.10-23.37.36:857][896]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2021.01.10-23.37.36:857][896]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2021.01.10-23.37.36:857][896]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2021.01.10-23.37.36:901][896]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2021.01.10-23.37.36:901][896]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2021.01.10-23.37.36:901][896]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2021.01.10-23.37.36:901][896]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2021.01.10-23.37.36:901][896]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2021.01.10-23.37.36:901][896]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2021.01.10-23.37.36:901][896]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2021.01.10-23.37.36:901][896]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2021.01.10-23.37.36:901][896]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2021.01.10-23.37.36:901][896]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2021.01.10-23.37.36:908][896]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2021.01.10-23.37.36:908][896]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2021.01.10-23.37.36:908][896]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2021.01.10-23.37.36:908][896]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2021.01.10-23.37.36:908][896]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2021.01.10-23.37.36:908][896]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2021.01.10-23.37.36:908][896]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2021.01.10-23.37.36:909][896]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2021.01.10-23.37.37:074][896]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2021.01.10-23.37.37:075][896]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2021.01.10-23.37.37:076][896]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2021.01.10-23.37.37:076][896]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2021.01.10-23.37.37:076][896]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2021.01.10-23.37.37:076][896]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2021.01.10-23.37.37:076][896]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2021.01.10-23.37.37:076][896]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2021.01.10-23.37.37:076][896]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2021.01.10-23.37.37:076][896]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2021.01.10-23.37.37:076][896]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2021.01.10-23.37.37:177][896]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2021.01.10-23.37.37:278][896]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2021.01.10-23.37.37:278][896]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2021.01.10-23.37.37:278][896]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2021.01.10-23.37.37:278][896]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2021.01.10-23.37.37:278][896]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2021.01.10-23.37.37:278][896]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2021.01.10-23.37.37:279][896]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2021.01.10-23.37.37:279][896]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2021.01.10-23.37.37:279][896]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2021.01.10-23.37.37:279][896]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2021.01.10-23.37.37:280][896]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2021.01.10-23.37.37:281][896]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2021.01.10-23.37.37:281][896]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2021.01.10-23.37.37:281][896]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2021.01.10-23.37.37:281][896]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2021.01.10-23.37.37:281][896]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2021.01.10-23.37.37:282][896]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2021.01.10-23.37.37:283][896]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2021.01.10-23.37.37:283][896]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2021.01.10-23.37.37:283][896]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2021.01.10-23.37.37:283][896]LogModuleManager: Shutting down and abandoning module Core (164)
+[2021.01.10-23.37.37:283][896]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2021.01.10-23.37.37:395][896]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2021.01.10-23.37.37:395][896]LogDirectoryWatcher: A directory notification for '../../../../../../CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Content/' was aborted.
+[2021.01.10-23.37.37:395][896]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2021.01.10-23.37.37:395][896]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2021.01.10-23.37.37:400][896]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2021.01.10-23.37.37:402][896]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2021.01.10-23.37.37:402][896]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2021.01.10-23.37.37:402][896]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2021.01.10-23.37.37:402][896]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2021.01.10-23.37.37:402][896]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2021.01.10-23.37.37:402][896]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2021.01.10-23.37.37:402][896]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2021.01.10-23.37.37:402][896]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2021.01.10-23.37.37:485][896]LogDerivedDataCache: Shutdown
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2021.01.10-23.37.37:485][896]LogOnline:Display: Unloading online subsystem: NULL
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2021.01.10-23.37.37:485][896]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2021.01.10-23.37.37:485][896]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.01.10-23.37.37:485][896]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEEDFDD20-4308-8D0B-A542-95BE5F0835E6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=e501a7c44c841f62f7de50abe6de14c6%7C277c8d9923434d3bb8920cc7c789e26e%7C7a263120-b56e-4687-b57b-11107039a0b9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2021.01.10-23.37.37:498][896]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2021.01.10-23.37.37:499][896]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2021.01.10-23.37.37:499][896]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2021.01.10-23.37.37:499][896]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2021.01.10-23.37.37:499][896]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2021.01.10-23.37.37:499][896]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2021.01.10-23.37.37:499][896]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2021.01.10-23.37.37:499][896]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2021.01.10-23.37.37:499][896]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2021.01.10-23.37.37:501][896]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2021.01.10-23.37.37:501][896]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2021.01.10-23.37.37:501][896]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2021.01.10-23.37.37:501][896]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2021.01.10-23.37.37:501][896]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2021.01.10-23.37.37:501][896]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2021.01.10-23.37.37:501][896]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2021.01.10-23.37.37:501][896]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2021.01.10-23.37.37:501][896]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2021.01.10-23.37.37:501][896]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2021.01.10-23.37.37:503][896]LogExit: Exiting.
+[2021.01.10-23.37.37:523][896]Log file closed, 01/11/21 00:37:37
