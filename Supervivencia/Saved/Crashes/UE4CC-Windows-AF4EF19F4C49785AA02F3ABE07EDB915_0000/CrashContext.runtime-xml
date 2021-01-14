@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-AF4EF19F4C49785AA02F3ABE07EDB915_0000</CrashGUID>
+		<ProcessId>8736</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>5830</SecondsSinceStart>
+		<GameName>UE4-Supervivencia</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.16.3-3561208+++UE4+Release-4.16</EngineVersion>
+		<CommandLine>&quot;D:/CLASE/VIDEOJUEGOS/LAB/JUEGO LIBRE UNREAL/Supervivencia/Supervivencia.uproject&quot;</CommandLine>
+		<LanguageLCID>3082</LanguageLCID>
+		<AppDefaultLocale>es-ES</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.16-CL-3561208</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Sofía</UserName>
+		<BaseDir>D:/PROGRAMAS/UNREAL/UE_4.16/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>D:/PROGRAMAS/UNREAL/UE_4.16/</RootDir>
+		<MachineId>E501A7C44C841F62F7DE50ABE6DE14C6</MachineId>
+		<LoginId>e501a7c44c841f62f7de50abe6de14c6</LoginId>
+		<EpicAccountId>277c8d9923434d3bb8920cc7c789e26e</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;StandaloneToolkit : 12&quot; Label=&quot;Antiterr*&quot; Content=SStandaloneAssetEditorToolkitHost</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037] &nl;Error: Invalid (but non-null) property associated with pin; cannot get variable value&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD Ryzen 5 3600 6-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1650 SUPER</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17127038976</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>9244938240</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140727821602816</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>2342920192</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>2346270720</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>4061593600</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>4332437504</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>637462337833470000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
